@@ -6,7 +6,7 @@
 - Casey Kalman
 - Troyona Brown
 - Jongchan Kim
-- Vikram Chhatre
+- Vikram Chhatre (Sys Admin)
 
 ## Overview
 
