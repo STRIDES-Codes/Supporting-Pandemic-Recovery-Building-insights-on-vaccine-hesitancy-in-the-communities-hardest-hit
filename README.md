@@ -4,7 +4,7 @@
 - Jesse Shanahan (Lead)
 - Christopher Villafuerte
 - Casey Kalman
-- Troyona Brown
+- Troyana Brown
 - Jongchan Kim
 - Vikram Chhatre (Sys Admin)
 
