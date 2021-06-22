@@ -1,7 +1,7 @@
 # Supporting Pandemic Recovery: Building insights on vaccine hesitancy in the communities hardest hit by COVID-19
 
 ## Authors
-Jesse Shanahan (Lead) | Christopher Villafuerte | Casey Kalman (Writer) | Troyana Brown | Jongchan Kim |Vikram Chhatre (Sys Admin)
+Jesse Shanahan (Lead) | Christopher Villafuerte | Casey Kalman (Writer) | Troyana Brown | Jongchan Kim | Vikram Chhatre (Sys Admin)
 
 ## What is Vaccine Hesitancy?
 According to the World Health Organization (WHO), vaccine hesitancy is defined as a “delay in acceptance or refusal of vaccines despite availability of vaccine services”.
@@ -16,12 +16,7 @@ The history of western medicine is riddled with examples of unethical and inhuma
 While certain racial and ethnic groups within the US experience higher levels of vaccine hesitancy, these feelings are more than justified and should be acknowledged in the interpretation of this model.
 
 ## COVID-19’s Inequitable Impacts
-In early 2020, the COVID-19 pandemic traveled quickly and swiftly, infecting individuals throughout the world without consideration for borders, race, or socioeconomic status; however, throughout the pandemic it has become clear that the virus has not affected all individuals equally. 
-
-Particularly in the US, grave health disparities have been highlighted and exacerbated by the pandemic with low-income communities and communities of color often experiencing higher rates of severe symptoms, hospitalization, and death due to the disease (CDC). 
-
-Contributing to the prolongation of the pandemic is a high degree of vaccine hesitancy among various demographic groups throughout the US. The factors contributing to vaccine hesitancy are complex, especially when we consider the novelty of the COVID-19 vaccines, the relative speed with which they were produced, and the first use of RNA vaccines for large-scale vaccination. However, there are various socioeconomic factors that appear to be predictive of vaccine hesitancy, many of which are also predictive of COVID-19 severity. 
-
+In early 2020, the COVID-19 pandemic traveled quickly and swiftly, infecting individuals throughout the world without consideration for borders, race, or socioeconomic status; however, throughout the pandemic it has become clear that the virus has not affected all individuals equally. Particularly in the US, grave health disparities have been highlighted and exacerbated by the pandemic with low-income communities and communities of color often experiencing higher rates of severe symptoms, hospitalization, and death due to the disease (CDC). 
 
 ## Our Approach
 Our research will investigate and compare social determinants of COVID-19 severity across communities in the United States with predictors of vaccine hesitancy. Our approach will utilize machine learning models to predict likelihood of vaccine hesitancy and likelihood of COVID-19 severity. Then, we will extract feature importance from the most successful models to determine the factors most likely to be correlated with both COVID infection rates, and vaccine hesitancy. Finally, we will compare these findings in an interactive dashboard, using data visualization methods such as choropleths or heat maps.
