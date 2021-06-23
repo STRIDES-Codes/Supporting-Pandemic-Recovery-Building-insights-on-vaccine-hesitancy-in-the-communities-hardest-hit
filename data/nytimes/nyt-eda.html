@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>EDA of the NYT COVID-19 Data</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style>
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="avenir-white.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">EDA of the NYT COVID-19 Data</h1>
+</header>
+<h2 id="main-data-sets-included">1. Main data sets included</h2>
+<ul>
+<li><p>State level cumulative cases and deaths (Jan 2020 - current)</p></li>
+<li><p>County level cumulative cases and deaths (Jan 2020 - current)</p></li>
+<li><p>Incidence of COVID-19 in prison populations (May 2021)</p></li>
+<li><p>Incidence of COVID-19 at educational institutions (May 2021)</p></li>
+</ul>
+<p><br><br></p>
+<h3 id="import-data-into-r">1.1 Import data into R</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2"></a>cd data<span class="op">/</span>nytimes<span class="op">/</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>counties &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;us-counties.csv&quot;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="kw">cols</span>(</span>
+<span id="cb2-4"><a href="#cb2-4"></a>  <span class="dt">date =</span> <span class="kw">col_date</span>(<span class="dt">format =</span> <span class="st">&quot;&quot;</span>),</span>
+<span id="cb2-5"><a href="#cb2-5"></a>  <span class="dt">county =</span> <span class="kw">col_character</span>(),</span>
+<span id="cb2-6"><a href="#cb2-6"></a>  <span class="dt">state =</span> <span class="kw">col_character</span>(),</span>
+<span id="cb2-7"><a href="#cb2-7"></a>  <span class="dt">fips =</span> <span class="kw">col_character</span>(),</span>
+<span id="cb2-8"><a href="#cb2-8"></a>  <span class="dt">cases =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb2-9"><a href="#cb2-9"></a>  <span class="dt">deaths =</span> <span class="kw">col_double</span>()</span>
+<span id="cb2-10"><a href="#cb2-10"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>states &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;us-states.csv&quot;</span>)</span>
+<span id="cb3-2"><a href="#cb3-2"></a></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="kw">cols</span>(</span>
+<span id="cb3-4"><a href="#cb3-4"></a>  <span class="dt">date =</span> <span class="kw">col_date</span>(<span class="dt">format =</span> <span class="st">&quot;&quot;</span>),</span>
+<span id="cb3-5"><a href="#cb3-5"></a>  <span class="dt">state =</span> <span class="kw">col_character</span>(),</span>
+<span id="cb3-6"><a href="#cb3-6"></a>  <span class="dt">fips =</span> <span class="kw">col_character</span>(),</span>
+<span id="cb3-7"><a href="#cb3-7"></a>  <span class="dt">cases =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb3-8"><a href="#cb3-8"></a>  <span class="dt">deaths =</span> <span class="kw">col_double</span>()</span>
+<span id="cb3-9"><a href="#cb3-9"></a>)</span></code></pre></div>
+<pre><code>prisonfac &lt;- read_csv(&quot;prisons/facilities.csv&quot;)
+
+cols(
+  nyt_id = col_character(),
+  facility_name = col_character(),
+  facility_type = col_character(),
+  facility_city = col_character(),
+  facility_county = col_character(),
+  facility_county_fips = col_character(),
+  facility_state = col_character(),
+  facility_lng = col_double(),
+  facility_lat = col_double(),
+  latest_inmate_population = col_double(),
+  max_inmate_population_2020 = col_double(),
+  total_inmate_cases = col_double(),
+  total_inmate_deaths = col_double(),
+  total_officer_cases = col_double(),
+  total_officer_deaths = col_double(),
+  note = col_character()
+)</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>prisonstate &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;prisons/systems.csv&quot;</span>)</span>
+<span id="cb5-2"><a href="#cb5-2"></a></span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="kw">cols</span>(</span>
+<span id="cb5-4"><a href="#cb5-4"></a>  <span class="dt">system =</span> <span class="kw">col_character</span>(),</span>
+<span id="cb5-5"><a href="#cb5-5"></a>  <span class="dt">inmate_tests =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb5-6"><a href="#cb5-6"></a>  <span class="dt">total_inmate_cases =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb5-7"><a href="#cb5-7"></a>  <span class="dt">total_inmate_deaths =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb5-8"><a href="#cb5-8"></a>  <span class="dt">latest_inmate_population =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb5-9"><a href="#cb5-9"></a>  <span class="dt">max_inmate_population_2020 =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb5-10"><a href="#cb5-10"></a>  <span class="dt">total_officer_cases =</span> <span class="kw">col_double</span>(),</span>
+<span id="cb5-11"><a href="#cb5-11"></a>  <span class="dt">total_officer_deaths =</span> <span class="kw">col_double</span>()</span>
+<span id="cb5-12"><a href="#cb5-12"></a>)</span></code></pre></div>
+<p><br><Br></p>
+<h3 id="exploratory-analysis">1.2 Exploratory analysis</h3>
+<ul>
+<li>Max number of cases by state up to June 2021</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>state_max_cases &lt;-<span class="st"> </span>states <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">group_by</span>(state) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">summarize</span>(<span class="kw">max</span>(cases)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">arrange</span>(<span class="kw">desc</span>(<span class="st">`</span><span class="dt">max(cases)</span><span class="st">`</span>)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">print</span>(<span class="dt">n=</span><span class="ot">Inf</span>)</span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a>   state                    <span class="st">`</span><span class="dt">max(cases)</span><span class="st">`</span></span>
+<span id="cb6-4"><a href="#cb6-4"></a>   <span class="op">&lt;</span>chr<span class="op">&gt;</span><span class="st">                           </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span></span>
+<span id="cb6-5"><a href="#cb6-5"></a><span class="st"> </span><span class="dv">1</span> California                    <span class="dv">3808577</span></span>
+<span id="cb6-6"><a href="#cb6-6"></a> <span class="dv">2</span> Texas                         <span class="dv">2979672</span></span>
+<span id="cb6-7"><a href="#cb6-7"></a> <span class="dv">3</span> Florida                       <span class="dv">2329859</span></span>
+<span id="cb6-8"><a href="#cb6-8"></a> <span class="dv">4</span> New York                      <span class="dv">2110069</span></span>
+<span id="cb6-9"><a href="#cb6-9"></a> <span class="dv">5</span> Illinois                      <span class="dv">1392733</span></span>
+<span id="cb6-10"><a href="#cb6-10"></a> <span class="dv">6</span> Pennsylvania                  <span class="dv">1214901</span></span>
+<span id="cb6-11"><a href="#cb6-11"></a> <span class="dv">7</span> Ohio                          <span class="dv">1108902</span></span>
+<span id="cb6-12"><a href="#cb6-12"></a> <span class="dv">8</span> Georgia                       <span class="dv">1106604</span></span>
+<span id="cb6-13"><a href="#cb6-13"></a> <span class="dv">9</span> New Jersey                    <span class="dv">1021182</span></span>
+<span id="cb6-14"><a href="#cb6-14"></a><span class="dv">10</span> North Carolina                <span class="dv">1010919</span></span>
+<span id="cb6-15"><a href="#cb6-15"></a><span class="dv">11</span> Michigan                       <span class="dv">996624</span></span>
+<span id="cb6-16"><a href="#cb6-16"></a><span class="dv">12</span> Arizona                        <span class="dv">889727</span></span>
+<span id="cb6-17"><a href="#cb6-17"></a><span class="dv">13</span> Tennessee                      <span class="dv">853104</span></span>
+<span id="cb6-18"><a href="#cb6-18"></a><span class="dv">14</span> Indiana                        <span class="dv">754583</span></span>
+<span id="cb6-19"><a href="#cb6-19"></a><span class="dv">15</span> Massachusetts                  <span class="dv">709395</span></span>
+<span id="cb6-20"><a href="#cb6-20"></a><span class="dv">16</span> Virginia                       <span class="dv">678649</span></span>
+<span id="cb6-21"><a href="#cb6-21"></a><span class="dv">17</span> Wisconsin                      <span class="dv">676885</span></span>
+<span id="cb6-22"><a href="#cb6-22"></a><span class="dv">18</span> Missouri                       <span class="dv">626338</span></span>
+<span id="cb6-23"><a href="#cb6-23"></a><span class="dv">19</span> Minnesota                      <span class="dv">604602</span></span>
+<span id="cb6-24"><a href="#cb6-24"></a><span class="dv">20</span> South Carolina                 <span class="dv">595448</span></span>
+<span id="cb6-25"><a href="#cb6-25"></a><span class="dv">21</span> Colorado                       <span class="dv">557005</span></span>
+<span id="cb6-26"><a href="#cb6-26"></a><span class="dv">22</span> Alabama                        <span class="dv">548657</span></span>
+<span id="cb6-27"><a href="#cb6-27"></a><span class="dv">23</span> Louisiana                      <span class="dv">477453</span></span>
+<span id="cb6-28"><a href="#cb6-28"></a><span class="dv">24</span> Kentucky                       <span class="dv">464335</span></span>
+<span id="cb6-29"><a href="#cb6-29"></a><span class="dv">25</span> Maryland                       <span class="dv">461956</span></span>
+<span id="cb6-30"><a href="#cb6-30"></a><span class="dv">26</span> Oklahoma                       <span class="dv">455535</span></span>
+<span id="cb6-31"><a href="#cb6-31"></a><span class="dv">27</span> Washington                     <span class="dv">449170</span></span>
+<span id="cb6-32"><a href="#cb6-32"></a><span class="dv">28</span> Utah                           <span class="dv">411680</span></span>
+<span id="cb6-33"><a href="#cb6-33"></a><span class="dv">29</span> Iowa                           <span class="dv">373101</span></span>
+<span id="cb6-34"><a href="#cb6-34"></a><span class="dv">30</span> Connecticut                    <span class="dv">348665</span></span>
+<span id="cb6-35"><a href="#cb6-35"></a><span class="dv">31</span> Arkansas                       <span class="dv">345605</span></span>
+<span id="cb6-36"><a href="#cb6-36"></a><span class="dv">32</span> Nevada                         <span class="dv">328875</span></span>
+<span id="cb6-37"><a href="#cb6-37"></a><span class="dv">33</span> Mississippi                    <span class="dv">319948</span></span>
+<span id="cb6-38"><a href="#cb6-38"></a><span class="dv">34</span> Kansas                         <span class="dv">318104</span></span>
+<span id="cb6-39"><a href="#cb6-39"></a><span class="dv">35</span> Nebraska                       <span class="dv">223986</span></span>
+<span id="cb6-40"><a href="#cb6-40"></a><span class="dv">36</span> Oregon                         <span class="dv">206777</span></span>
+<span id="cb6-41"><a href="#cb6-41"></a><span class="dv">37</span> New Mexico                     <span class="dv">204698</span></span>
+<span id="cb6-42"><a href="#cb6-42"></a><span class="dv">38</span> Idaho                          <span class="dv">194084</span></span>
+<span id="cb6-43"><a href="#cb6-43"></a><span class="dv">39</span> Puerto Rico                    <span class="dv">173328</span></span>
+<span id="cb6-44"><a href="#cb6-44"></a><span class="dv">40</span> West Virginia                  <span class="dv">163382</span></span>
+<span id="cb6-45"><a href="#cb6-45"></a><span class="dv">41</span> Rhode Island                   <span class="dv">152383</span></span>
+<span id="cb6-46"><a href="#cb6-46"></a><span class="dv">42</span> South Dakota                   <span class="dv">124393</span></span>
+<span id="cb6-47"><a href="#cb6-47"></a><span class="dv">43</span> Montana                        <span class="dv">113275</span></span>
+<span id="cb6-48"><a href="#cb6-48"></a><span class="dv">44</span> North Dakota                   <span class="dv">110598</span></span>
+<span id="cb6-49"><a href="#cb6-49"></a><span class="dv">45</span> Delaware                       <span class="dv">109548</span></span>
+<span id="cb6-50"><a href="#cb6-50"></a><span class="dv">46</span> New Hampshire                   <span class="dv">99254</span></span>
+<span id="cb6-51"><a href="#cb6-51"></a><span class="dv">47</span> Alaska                          <span class="dv">70285</span></span>
+<span id="cb6-52"><a href="#cb6-52"></a><span class="dv">48</span> Maine                           <span class="dv">68826</span></span>
+<span id="cb6-53"><a href="#cb6-53"></a><span class="dv">49</span> Wyoming                         <span class="dv">61490</span></span>
+<span id="cb6-54"><a href="#cb6-54"></a><span class="dv">50</span> District of Columbia            <span class="dv">49243</span></span>
+<span id="cb6-55"><a href="#cb6-55"></a><span class="dv">51</span> Hawaii                          <span class="dv">36036</span></span>
+<span id="cb6-56"><a href="#cb6-56"></a><span class="dv">52</span> Vermont                         <span class="dv">24360</span></span>
+<span id="cb6-57"><a href="#cb6-57"></a><span class="dv">53</span> Guam                             <span class="dv">9236</span></span>
+<span id="cb6-58"><a href="#cb6-58"></a><span class="dv">54</span> Virgin Islands                   <span class="dv">3752</span></span>
+<span id="cb6-59"><a href="#cb6-59"></a><span class="dv">55</span> Northern Mariana Islands          <span class="dv">183</span></span></code></pre></div>
+<p><br></p>
+<ul>
+<li>Max number of deaths by state up to June 2021</li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a>states_max_deaths &lt;-<span class="st"> </span>states <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">group_by</span>(state) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">summarize</span>(<span class="kw">max</span>(deaths)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">arrange</span>(<span class="kw">desc</span>(<span class="st">`</span><span class="dt">max(deaths)</span><span class="st">`</span>)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">print</span>(<span class="dt">n=</span><span class="ot">Inf</span>)</span>
+<span id="cb7-2"><a href="#cb7-2"></a></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="co"># A tibble: 55 x 2</span></span>
+<span id="cb7-4"><a href="#cb7-4"></a>   state                    <span class="st">`</span><span class="dt">max(deaths)</span><span class="st">`</span></span>
+<span id="cb7-5"><a href="#cb7-5"></a>   <span class="op">&lt;</span>chr<span class="op">&gt;</span><span class="st">                            </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span></span>
+<span id="cb7-6"><a href="#cb7-6"></a><span class="st"> </span><span class="dv">1</span> California                       <span class="dv">63339</span></span>
+<span id="cb7-7"><a href="#cb7-7"></a> <span class="dv">2</span> New York                         <span class="dv">53026</span></span>
+<span id="cb7-8"><a href="#cb7-8"></a> <span class="dv">3</span> Texas                            <span class="dv">52292</span></span>
+<span id="cb7-9"><a href="#cb7-9"></a> <span class="dv">4</span> Florida                          <span class="dv">37555</span></span>
+<span id="cb7-10"><a href="#cb7-10"></a> <span class="dv">5</span> Pennsylvania                     <span class="dv">27621</span></span>
+<span id="cb7-11"><a href="#cb7-11"></a> <span class="dv">6</span> New Jersey                       <span class="dv">26374</span></span>
+<span id="cb7-12"><a href="#cb7-12"></a> <span class="dv">7</span> Illinois                         <span class="dv">25566</span></span>
+<span id="cb7-13"><a href="#cb7-13"></a> <span class="dv">8</span> Michigan                         <span class="dv">20848</span></span>
+<span id="cb7-14"><a href="#cb7-14"></a> <span class="dv">9</span> Georgia                          <span class="dv">20628</span></span>
+<span id="cb7-15"><a href="#cb7-15"></a><span class="dv">10</span> Ohio                             <span class="dv">20166</span></span>
+<span id="cb7-16"><a href="#cb7-16"></a><span class="dv">11</span> Massachusetts                    <span class="dv">17971</span></span>
+<span id="cb7-17"><a href="#cb7-17"></a><span class="dv">12</span> Arizona                          <span class="dv">17843</span></span>
+<span id="cb7-18"><a href="#cb7-18"></a><span class="dv">13</span> Indiana                          <span class="dv">13795</span></span>
+<span id="cb7-19"><a href="#cb7-19"></a><span class="dv">14</span> North Carolina                   <span class="dv">13359</span></span>
+<span id="cb7-20"><a href="#cb7-20"></a><span class="dv">15</span> Tennessee                        <span class="dv">12415</span></span>
+<span id="cb7-21"><a href="#cb7-21"></a><span class="dv">16</span> Virginia                         <span class="dv">11351</span></span>
+<span id="cb7-22"><a href="#cb7-22"></a><span class="dv">17</span> Alabama                          <span class="dv">11306</span></span>
+<span id="cb7-23"><a href="#cb7-23"></a><span class="dv">18</span> Louisiana                        <span class="dv">10688</span></span>
+<span id="cb7-24"><a href="#cb7-24"></a><span class="dv">19</span> Missouri                          <span class="dv">9846</span></span>
+<span id="cb7-25"><a href="#cb7-25"></a><span class="dv">20</span> South Carolina                    <span class="dv">9792</span></span>
+<span id="cb7-26"><a href="#cb7-26"></a><span class="dv">21</span> Maryland                          <span class="dv">9707</span></span>
+<span id="cb7-27"><a href="#cb7-27"></a><span class="dv">22</span> Connecticut                       <span class="dv">8270</span></span>
+<span id="cb7-28"><a href="#cb7-28"></a><span class="dv">23</span> Wisconsin                         <span class="dv">8047</span></span>
+<span id="cb7-29"><a href="#cb7-29"></a><span class="dv">24</span> Minnesota                         <span class="dv">7638</span></span>
+<span id="cb7-30"><a href="#cb7-30"></a><span class="dv">25</span> Mississippi                       <span class="dv">7371</span></span>
+<span id="cb7-31"><a href="#cb7-31"></a><span class="dv">26</span> Oklahoma                          <span class="dv">7354</span></span>
+<span id="cb7-32"><a href="#cb7-32"></a><span class="dv">27</span> Kentucky                          <span class="dv">7227</span></span>
+<span id="cb7-33"><a href="#cb7-33"></a><span class="dv">28</span> Colorado                          <span class="dv">6876</span></span>
+<span id="cb7-34"><a href="#cb7-34"></a><span class="dv">29</span> Iowa                              <span class="dv">6114</span></span>
+<span id="cb7-35"><a href="#cb7-35"></a><span class="dv">30</span> Washington                        <span class="dv">5894</span></span>
+<span id="cb7-36"><a href="#cb7-36"></a><span class="dv">31</span> Arkansas                          <span class="dv">5874</span></span>
+<span id="cb7-37"><a href="#cb7-37"></a><span class="dv">32</span> Nevada                            <span class="dv">5649</span></span>
+<span id="cb7-38"><a href="#cb7-38"></a><span class="dv">33</span> Kansas                            <span class="dv">5163</span></span>
+<span id="cb7-39"><a href="#cb7-39"></a><span class="dv">34</span> New Mexico                        <span class="dv">4318</span></span>
+<span id="cb7-40"><a href="#cb7-40"></a><span class="dv">35</span> West Virginia                     <span class="dv">2863</span></span>
+<span id="cb7-41"><a href="#cb7-41"></a><span class="dv">36</span> Oregon                            <span class="dv">2784</span></span>
+<span id="cb7-42"><a href="#cb7-42"></a><span class="dv">37</span> Rhode Island                      <span class="dv">2724</span></span>
+<span id="cb7-43"><a href="#cb7-43"></a><span class="dv">38</span> Puerto Rico                       <span class="dv">2540</span></span>
+<span id="cb7-44"><a href="#cb7-44"></a><span class="dv">39</span> Nebraska                          <span class="dv">2519</span></span>
+<span id="cb7-45"><a href="#cb7-45"></a><span class="dv">40</span> Utah                              <span class="dv">2330</span></span>
+<span id="cb7-46"><a href="#cb7-46"></a><span class="dv">41</span> Idaho                             <span class="dv">2125</span></span>
+<span id="cb7-47"><a href="#cb7-47"></a><span class="dv">42</span> South Dakota                      <span class="dv">2027</span></span>
+<span id="cb7-48"><a href="#cb7-48"></a><span class="dv">43</span> Delaware                          <span class="dv">1683</span></span>
+<span id="cb7-49"><a href="#cb7-49"></a><span class="dv">44</span> Montana                           <span class="dv">1651</span></span>
+<span id="cb7-50"><a href="#cb7-50"></a><span class="dv">45</span> North Dakota                      <span class="dv">1554</span></span>
+<span id="cb7-51"><a href="#cb7-51"></a><span class="dv">46</span> New Hampshire                     <span class="dv">1367</span></span>
+<span id="cb7-52"><a href="#cb7-52"></a><span class="dv">47</span> District of Columbia              <span class="dv">1141</span></span>
+<span id="cb7-53"><a href="#cb7-53"></a><span class="dv">48</span> Maine                              <span class="dv">854</span></span>
+<span id="cb7-54"><a href="#cb7-54"></a><span class="dv">49</span> Wyoming                            <span class="dv">734</span></span>
+<span id="cb7-55"><a href="#cb7-55"></a><span class="dv">50</span> Hawaii                             <span class="dv">510</span></span>
+<span id="cb7-56"><a href="#cb7-56"></a><span class="dv">51</span> Alaska                             <span class="dv">356</span></span>
+<span id="cb7-57"><a href="#cb7-57"></a><span class="dv">52</span> Vermont                            <span class="dv">256</span></span>
+<span id="cb7-58"><a href="#cb7-58"></a><span class="dv">53</span> Guam                               <span class="dv">140</span></span>
+<span id="cb7-59"><a href="#cb7-59"></a><span class="dv">54</span> Virgin Islands                      <span class="dv">30</span></span>
+<span id="cb7-60"><a href="#cb7-60"></a><span class="dv">55</span> Northern Mariana Islands             <span class="dv">2</span></span></code></pre></div>
+<p><br><br></p>
+<ul>
+<li>Max number of cases by county</li>
+</ul>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a>max_county_cases &lt;-<span class="st"> </span>counties <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">group_by</span>(county) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">summarize</span>(<span class="kw">max</span>(cases)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">arrange</span>(<span class="kw">desc</span>(<span class="st">`</span><span class="dt">max(cases)</span><span class="st">`</span>))</span>
+<span id="cb8-2"><a href="#cb8-2"></a></span>
+<span id="cb8-3"><a href="#cb8-3"></a><span class="co"># A tibble: 1,930 x 2</span></span>
+<span id="cb8-4"><a href="#cb8-4"></a>   county         <span class="st">`</span><span class="dt">max(cases)</span><span class="st">`</span></span>
+<span id="cb8-5"><a href="#cb8-5"></a>   <span class="op">&lt;</span>chr<span class="op">&gt;</span><span class="st">                 </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span></span>
+<span id="cb8-6"><a href="#cb8-6"></a><span class="st"> </span><span class="dv">1</span> Los Angeles         <span class="dv">1248285</span></span>
+<span id="cb8-7"><a href="#cb8-7"></a> <span class="dv">2</span> New York City        <span class="dv">953928</span></span>
+<span id="cb8-8"><a href="#cb8-8"></a> <span class="dv">3</span> Maricopa             <span class="dv">556844</span></span>
+<span id="cb8-9"><a href="#cb8-9"></a> <span class="dv">4</span> Cook                 <span class="dv">556201</span></span>
+<span id="cb8-10"><a href="#cb8-10"></a> <span class="dv">5</span> Miami<span class="op">-</span>Dade           <span class="dv">501925</span></span>
+<span id="cb8-11"><a href="#cb8-11"></a> <span class="dv">6</span> Harris               <span class="dv">403496</span></span>
+<span id="cb8-12"><a href="#cb8-12"></a> <span class="dv">7</span> Dallas               <span class="dv">305400</span></span>
+<span id="cb8-13"><a href="#cb8-13"></a> <span class="dv">8</span> Riverside            <span class="dv">301603</span></span>
+<span id="cb8-14"><a href="#cb8-14"></a> <span class="dv">9</span> San Bernardino       <span class="dv">299289</span></span>
+<span id="cb8-15"><a href="#cb8-15"></a><span class="dv">10</span> San Diego            <span class="dv">281745</span></span>
+<span id="cb8-16"><a href="#cb8-16"></a><span class="co"># … with 1,920 more rows</span></span></code></pre></div>
+<p><br><br></p>
+<ul>
+<li>Max number of deaths by county</li>
+</ul>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a>max_county_deaths &lt;-<span class="st"> </span>counties <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">group_by</span>(county) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">summarize</span>(<span class="kw">max</span>(deaths)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">arrange</span>(<span class="kw">desc</span>(<span class="st">`</span><span class="dt">max(deaths)</span><span class="st">`</span>))</span>
+<span id="cb9-2"><a href="#cb9-2"></a></span>
+<span id="cb9-3"><a href="#cb9-3"></a><span class="co"># A tibble: 1,930 x 2</span></span>
+<span id="cb9-4"><a href="#cb9-4"></a>   county         <span class="st">`</span><span class="dt">max(deaths)</span><span class="st">`</span></span>
+<span id="cb9-5"><a href="#cb9-5"></a>   <span class="op">&lt;</span>chr<span class="op">&gt;</span><span class="st">                  </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span></span>
+<span id="cb9-6"><a href="#cb9-6"></a><span class="st"> </span><span class="dv">1</span> New York City          <span class="dv">33374</span></span>
+<span id="cb9-7"><a href="#cb9-7"></a> <span class="dv">2</span> Los Angeles            <span class="dv">24454</span></span>
+<span id="cb9-8"><a href="#cb9-8"></a> <span class="dv">3</span> Cook                   <span class="dv">11016</span></span>
+<span id="cb9-9"><a href="#cb9-9"></a> <span class="dv">4</span> Maricopa               <span class="dv">10224</span></span>
+<span id="cb9-10"><a href="#cb9-10"></a> <span class="dv">5</span> Harris                  <span class="dv">6548</span></span>
+<span id="cb9-11"><a href="#cb9-11"></a> <span class="dv">6</span> Miami<span class="op">-</span>Dade              <span class="dv">6472</span></span>
+<span id="cb9-12"><a href="#cb9-12"></a> <span class="dv">7</span> Wayne                   <span class="dv">5142</span></span>
+<span id="cb9-13"><a href="#cb9-13"></a> <span class="dv">8</span> Orange                  <span class="dv">5112</span></span>
+<span id="cb9-14"><a href="#cb9-14"></a> <span class="dv">9</span> San Bernardino          <span class="dv">4844</span></span>
+<span id="cb9-15"><a href="#cb9-15"></a><span class="dv">10</span> Riverside               <span class="dv">4627</span></span>
+<span id="cb9-16"><a href="#cb9-16"></a><span class="co"># … with 1,920 more rows</span></span></code></pre></div>
+<p><br><br></p>
+<ul>
+<li>Prison data: Proportion of cases and deaths to prison population size (2020) by state</li>
+</ul>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a>prisonstate</span>
+<span id="cb10-2"><a href="#cb10-2"></a></span>
+<span id="cb10-3"><a href="#cb10-3"></a><span class="co"># A tibble: 54 x 8</span></span>
+<span id="cb10-4"><a href="#cb10-4"></a>   system   inmate_tests total_inmate_cas… total_inmate_dea… latest_inmate_popu…</span>
+<span id="cb10-5"><a href="#cb10-5"></a>   <span class="op">&lt;</span>chr<span class="op">&gt;</span><span class="st">           </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span><span class="st">             </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span><span class="st">             </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span><span class="st">               </span><span class="er">&lt;</span>dbl<span class="op">&gt;</span></span>
+<span id="cb10-6"><a href="#cb10-6"></a><span class="st"> </span><span class="dv">1</span> Alabama         <span class="dv">15505</span>              <span class="dv">1601</span>                <span class="dv">64</span>               <span class="dv">19144</span></span>
+<span id="cb10-7"><a href="#cb10-7"></a> <span class="dv">2</span> Alaska          <span class="dv">27756</span>              <span class="dv">2428</span>                 <span class="dv">5</span>                <span class="dv">5011</span></span>
+<span id="cb10-8"><a href="#cb10-8"></a> <span class="dv">3</span> Arizona         <span class="dv">43652</span>             <span class="dv">12229</span>                <span class="dv">44</span>               <span class="dv">38248</span></span>
+<span id="cb10-9"><a href="#cb10-9"></a> <span class="dv">4</span> Arkansas            <span class="dv">0</span>             <span class="dv">11378</span>                <span class="dv">52</span>               <span class="dv">14729</span></span>
+<span id="cb10-10"><a href="#cb10-10"></a> <span class="dv">5</span> Califor…       <span class="dv">121207</span>             <span class="dv">49511</span>               <span class="dv">217</span>              <span class="dv">110471</span></span>
+<span id="cb10-11"><a href="#cb10-11"></a> <span class="dv">6</span> Colorado       <span class="dv">193165</span>              <span class="dv">9389</span>                <span class="dv">33</span>               <span class="dv">13346</span></span>
+<span id="cb10-12"><a href="#cb10-12"></a> <span class="dv">7</span> Connect…        <span class="dv">73559</span>              <span class="dv">4655</span>                <span class="dv">19</span>                <span class="dv">8839</span></span>
+<span id="cb10-13"><a href="#cb10-13"></a> <span class="dv">8</span> Delaware        <span class="dv">12665</span>              <span class="dv">2020</span>                <span class="dv">13</span>                <span class="dv">4562</span></span>
+<span id="cb10-14"><a href="#cb10-14"></a> <span class="dv">9</span> Florida         <span class="dv">87677</span>             <span class="dv">18491</span>               <span class="dv">220</span>               <span class="dv">83622</span></span>
+<span id="cb10-15"><a href="#cb10-15"></a><span class="dv">10</span> Georgia         <span class="dv">11947</span>              <span class="dv">3717</span>                <span class="dv">94</span>               <span class="dv">47585</span></span>
+<span id="cb10-16"><a href="#cb10-16"></a><span class="co"># … with 44 more rows, and 3 more variables: max_inmate_population_2020 &lt;dbl&gt;,</span></span>
+<span id="cb10-17"><a href="#cb10-17"></a><span class="co">#   total_officer_cases &lt;dbl&gt;, total_officer_deaths &lt;dbl&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a>prison_cases2pop &lt;-<span class="st"> </span>prisonstate <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">ggplot</span>() <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>(<span class="kw">aes</span>(<span class="dt">x=</span>max_inmate_population_<span class="dv">2020</span>, <span class="dt">y=</span>total_inmate_cases))</span>
+<span id="cb11-2"><a href="#cb11-2"></a></span>
+<span id="cb11-3"><a href="#cb11-3"></a>prison_deaths2pop &lt;-<span class="st"> </span>prisonstate <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">ggplot</span>() <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>(<span class="kw">aes</span>(<span class="dt">x=</span>max_inmate_population_<span class="dv">2020</span>, <span class="dt">y=</span>total_inmate_deaths))</span></code></pre></div>
+<p><br></p>
+<center>
+<img src="prison_cases2pop.png" width=375> <img src="prison_deaths2pop.png" width=375>
+</center>
+<p><br><br></p>
+<ul>
+<li>Density of prisons across the United States</li>
+</ul>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a>usamap &lt;-<span class="st"> </span><span class="kw">map_data</span>(<span class="st">&#39;usa&#39;</span>)</span>
+<span id="cb12-2"><a href="#cb12-2"></a>statesmap &lt;-<span class="st"> </span><span class="kw">map_data</span>(<span class="st">&#39;state&#39;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3"></a></span>
+<span id="cb12-4"><a href="#cb12-4"></a>usa_base &lt;-<span class="st"> </span><span class="kw">ggplot</span>(<span class="dt">data=</span>statesmap) <span class="op">+</span><span class="st"> </span><span class="kw">geom_polygon</span>(<span class="kw">aes</span>(<span class="dt">x=</span>long, <span class="dt">y=</span>lat, <span class="dt">fill=</span><span class="kw">I</span>(<span class="st">&quot;white&quot;</span>), <span class="dt">group=</span>group), <span class="dt">color=</span><span class="st">&quot;gray&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">coord_fixed</span>(<span class="fl">1.3</span>) <span class="op">+</span><span class="st"> </span><span class="kw">guides</span>(<span class="dt">fill=</span><span class="st">&quot;none&quot;</span>)</span>
+<span id="cb12-5"><a href="#cb12-5"></a></span>
+<span id="cb12-6"><a href="#cb12-6"></a>usa_base <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">data=</span>prisonfac, <span class="kw">aes</span>(<span class="dt">x=</span>facility_lng, <span class="dt">y=</span>facility_lat), <span class="dt">color=</span><span class="st">&quot;salmon&quot;</span>, <span class="dt">cex=</span><span class="fl">0.5</span>, <span class="dt">alpha=</span><span class="dv">3</span><span class="op">/</span><span class="dv">10</span>) <span class="op">+</span><span class="st"> </span><span class="kw">coord_fixed</span>(<span class="dt">xlim=</span><span class="kw">c</span>(<span class="op">-</span><span class="dv">125</span>, <span class="dv">-65</span>), <span class="dt">ylim=</span><span class="kw">c</span>(<span class="dv">25</span>,<span class="dv">50</span>), <span class="dt">ratio=</span><span class="fl">1.3</span>)</span></code></pre></div>
+<p><br></p>
+<center>
+<img src="prison_locations_usa.png" width=750>
+</center>
+<p><br></p>
+<ul>
+<li>COVID-19 cases among prisoners across the US</li>
+</ul>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a>usa_base <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">data=</span>prisonfac, <span class="kw">aes</span>(<span class="dt">x=</span>facility_lng, <span class="dt">y=</span>facility_lat), <span class="dt">color=</span><span class="st">&quot;salmon&quot;</span>, <span class="dt">cex=</span>prisonfac<span class="op">$</span>total_inmate_cases<span class="op">/</span><span class="dv">1000</span>, <span class="dt">alpha=</span><span class="dv">5</span><span class="op">/</span><span class="dv">10</span>) <span class="op">+</span><span class="st"> </span><span class="kw">coord_fixed</span>(<span class="dt">xlim=</span><span class="kw">c</span>(<span class="op">-</span><span class="dv">125</span>, <span class="dv">-65</span>), <span class="dt">ylim=</span><span class="kw">c</span>(<span class="dv">25</span>,<span class="dv">50</span>), <span class="dt">ratio=</span><span class="fl">1.3</span>)</span></code></pre></div>
+<br>
+<center>
+<img src="prisons_cases_usa.png" width=750>
+</center>
+<p><br></p>
+<ul>
+<li>COVID-19 deaths among prisoners across the US</li>
+</ul>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a>usa_base <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">data=</span>prisonfac, <span class="kw">aes</span>(<span class="dt">x=</span>facility_lng, <span class="dt">y=</span>facility_lat), <span class="dt">color=</span><span class="st">&quot;blue&quot;</span>, <span class="dt">cex=</span>prisonfac<span class="op">$</span>total_inmate_deaths<span class="op">/</span><span class="dv">10</span>, <span class="dt">alpha=</span><span class="dv">5</span><span class="op">/</span><span class="dv">10</span>) <span class="op">+</span><span class="st"> </span><span class="kw">coord_fixed</span>(<span class="dt">xlim=</span><span class="kw">c</span>(<span class="op">-</span><span class="dv">125</span>, <span class="dv">-65</span>), <span class="dt">ylim=</span><span class="kw">c</span>(<span class="dv">25</span>,<span class="dv">50</span>), <span class="dt">ratio=</span><span class="fl">1.3</span>)</span></code></pre></div>
+<br>
+<center>
+<img src="prisons_deaths_usa.png" width=750>
+</center>
+<p><br></p>
+</body>
+</html>
