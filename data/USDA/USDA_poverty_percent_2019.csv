@@ -658,35 +658,35 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 24045,Wicomico,2,16.0,13.6,18.4,23.1,18.2,28.0,percent,Maryland
 24047,Worcester,2,9.9,7.7,12.1,15.5,10.6,20.4,percent,Maryland
 24510,Baltimore,1,20.4,18.3,22.5,30.6,25.9,35.3,percent,Maryland
-2013,Aleutians East,9,14.8,10.3,19.3,13.4,9.5,17.3,percent,Alaska
-2016,Aleutians West,9,7.6,5.3,9.9,5.4,3.3,7.5,percent,Alaska
-2020,Anchorage,2,9.5,8.2,10.8,11.0,8.6,13.4,percent,Alaska
-2050,Bethel,7,23.5,19.0,28.0,31.6,22.8,40.4,percent,Alaska
-2060,Bristol Bay,9,9.8,7.1,12.5,11.0,7.1,14.9,percent,Alaska
-2068,Denali,8,6.6,4.8,8.4,8.6,5.5,11.7,percent,Alaska
-2070,Dillingham,9,18.1,13.6,22.6,27.1,17.8,36.4,percent,Alaska
-2090,Fairbanks North Star,3,7.2,5.5,8.9,7.9,5.1,10.7,percent,Alaska
-2100,Haines,9,9.8,7.2,12.4,14.4,9.2,19.6,percent,Alaska
-2105,Alaska,9,15.7,11.7,19.7,23.3,14.6,32.0,percent,Alaska
-2110,Juneau,5,6.3,4.6,8.0,8.0,5.1,10.9,percent,Alaska
-2122,Kenai Peninsula,7,10.4,8.4,12.4,12.5,8.3,16.7,percent,Alaska
-2130,Ketchikan Gateway,7,9.4,7.4,11.4,12.0,8.3,15.7,percent,Alaska
-2150,Kodiak Island,7,7.1,5.1,9.1,8.7,5.6,11.8,percent,Alaska
-2158,Kusilvak,9,26.8,20.2,33.4,35.5,22.6,48.4,percent,Alaska
-2164,Lake and Peninsula,9,17.4,12.8,22.0,25.3,16.3,34.3,percent,Alaska
-2170,Matanuska-Susitna,2,9.6,8.1,11.1,12.8,10.4,15.2,percent,Alaska
-2180,Nome,7,20.7,16.7,24.7,26.1,18.8,33.4,percent,Alaska
-2185,North Slope,7,11.4,8.3,14.5,15.3,10.1,20.5,percent,Alaska
-2188,Northwest Arctic,7,24.0,19.9,28.1,29.8,22.5,37.1,percent,Alaska
-2195,Alaska,9,6.7,4.9,8.5,8.6,5.4,11.8,percent,Alaska
-2198,Alaska,9,17.6,13.9,21.3,23.3,16.0,30.6,percent,Alaska
-2220,Sitka,7,8.1,6.2,10.0,9.3,6.4,12.2,percent,Alaska
-2230,Alaska,9,4.0,3.0,5.0,7.3,4.6,10.0,percent,Alaska
-2240,Southeast Fairbanks,9,12.0,8.8,15.2,15.8,10.1,21.5,percent,Alaska
-2261,Valdez-Cordova,9,8.6,6.3,10.9,10.1,6.7,13.5,percent,Alaska
-2275,Alaska,9,9.7,7.0,12.4,11.0,7.0,15.0,percent,Alaska
-2282,Yakutat,9,14.7,10.6,18.8,26.7,16.7,36.7,percent,Alaska
-2290,Yukon-Koyukuk,9,24.4,19.5,29.3,30.8,21.0,40.6,percent,Alaska
+02013,Aleutians East,9,14.8,10.3,19.3,13.4,9.5,17.3,percent,Alaska
+02016,Aleutians West,9,7.6,5.3,9.9,5.4,3.3,7.5,percent,Alaska
+02020,Anchorage,2,9.5,8.2,10.8,11.0,8.6,13.4,percent,Alaska
+02050,Bethel,7,23.5,19.0,28.0,31.6,22.8,40.4,percent,Alaska
+02060,Bristol Bay,9,9.8,7.1,12.5,11.0,7.1,14.9,percent,Alaska
+02068,Denali,8,6.6,4.8,8.4,8.6,5.5,11.7,percent,Alaska
+02070,Dillingham,9,18.1,13.6,22.6,27.1,17.8,36.4,percent,Alaska
+02090,Fairbanks North Star,3,7.2,5.5,8.9,7.9,5.1,10.7,percent,Alaska
+02100,Haines,9,9.8,7.2,12.4,14.4,9.2,19.6,percent,Alaska
+02105,Alaska,9,15.7,11.7,19.7,23.3,14.6,32.0,percent,Alaska
+02110,Juneau,5,6.3,4.6,8.0,8.0,5.1,10.9,percent,Alaska
+02122,Kenai Peninsula,7,10.4,8.4,12.4,12.5,8.3,16.7,percent,Alaska
+02130,Ketchikan Gateway,7,9.4,7.4,11.4,12.0,8.3,15.7,percent,Alaska
+02150,Kodiak Island,7,7.1,5.1,9.1,8.7,5.6,11.8,percent,Alaska
+02158,Kusilvak,9,26.8,20.2,33.4,35.5,22.6,48.4,percent,Alaska
+02164,Lake and Peninsula,9,17.4,12.8,22.0,25.3,16.3,34.3,percent,Alaska
+02170,Matanuska-Susitna,2,9.6,8.1,11.1,12.8,10.4,15.2,percent,Alaska
+02180,Nome,7,20.7,16.7,24.7,26.1,18.8,33.4,percent,Alaska
+02185,North Slope,7,11.4,8.3,14.5,15.3,10.1,20.5,percent,Alaska
+02188,Northwest Arctic,7,24.0,19.9,28.1,29.8,22.5,37.1,percent,Alaska
+02195,Alaska,9,6.7,4.9,8.5,8.6,5.4,11.8,percent,Alaska
+02198,Alaska,9,17.6,13.9,21.3,23.3,16.0,30.6,percent,Alaska
+02220,Sitka,7,8.1,6.2,10.0,9.3,6.4,12.2,percent,Alaska
+02230,Alaska,9,4.0,3.0,5.0,7.3,4.6,10.0,percent,Alaska
+02240,Southeast Fairbanks,9,12.0,8.8,15.2,15.8,10.1,21.5,percent,Alaska
+02261,Valdez-Cordova,9,8.6,6.3,10.9,10.1,6.7,13.5,percent,Alaska
+02275,Alaska,9,9.7,7.0,12.4,11.0,7.0,15.0,percent,Alaska
+02282,Yakutat,9,14.7,10.6,18.8,26.7,16.7,36.7,percent,Alaska
+02290,Yukon-Koyukuk,9,24.4,19.5,29.3,30.8,21.0,40.6,percent,Alaska
 39001,Adams,6,19.1,15.4,22.8,29.5,22.5,36.5,percent,Ohio
 39003,Allen,3,12.9,10.5,15.3,19.6,15.0,24.2,percent,Ohio
 39005,Ashland,4,12.6,10.3,14.9,19.1,14.8,23.4,percent,Ohio
@@ -1236,81 +1236,81 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 18179,Wells,2,7.4,5.6,9.2,10.3,6.8,13.8,percent,Indiana
 18181,White,6,10.3,8.3,12.3,13.3,9.0,17.6,percent,Indiana
 18183,Whitley,2,7.7,6.1,9.3,9.4,6.8,12.0,percent,Indiana
-5001,Arkansas,6,15.8,11.7,19.9,24.1,15.9,32.3,percent,Arkansas
-5003,Ashley,7,18.5,14.2,22.8,24.8,16.0,33.6,percent,Arkansas
-5005,Baxter,7,12.7,10.0,15.4,18.1,11.6,24.6,percent,Arkansas
-5007,Benton,2,8.9,7.7,10.1,12.2,9.6,14.8,percent,Arkansas
-5009,Boone,7,15.1,12.0,18.2,18.8,13.3,24.3,percent,Arkansas
-5011,Bradley,7,22.9,17.9,27.9,31.3,22.3,40.3,percent,Arkansas
-5013,Calhoun,9,15.4,11.5,19.3,20.2,13.5,26.9,percent,Arkansas
-5015,Carroll,6,14.7,11.2,18.2,19.2,11.8,26.6,percent,Arkansas
-5017,Chicot,7,31.0,24.1,37.9,45.1,32.5,57.7,percent,Arkansas
-5019,Clark,7,20.6,16.2,25.0,23.1,15.5,30.7,percent,Arkansas
-5021,Clay,7,18.7,14.8,22.6,25.5,18.1,32.9,percent,Arkansas
-5023,Cleburne,6,14.1,10.7,17.5,21.9,14.6,29.2,percent,Arkansas
-5025,Cleveland,3,13.7,10.2,17.2,19.8,13.5,26.1,percent,Arkansas
-5027,Columbia,7,21.2,16.2,26.2,26.5,17.9,35.1,percent,Arkansas
-5029,Conway,6,15.6,12.0,19.2,22.7,15.1,30.3,percent,Arkansas
-5031,Craighead,3,16.9,14.7,19.1,25.0,20.6,29.4,percent,Arkansas
-5033,Crawford,2,18.3,15.5,21.1,28.1,22.3,33.9,percent,Arkansas
-5035,Crittenden,1,22.4,18.2,26.6,32.1,23.3,40.9,percent,Arkansas
-5037,Cross,6,17.8,13.7,21.9,26.3,17.4,35.2,percent,Arkansas
-5039,Dallas,6,18.8,13.9,23.7,31.7,20.8,42.6,percent,Arkansas
-5041,Desha,6,25.4,19.5,31.3,38.6,27.1,50.1,percent,Arkansas
-5043,Drew,6,18.5,14.2,22.8,25.0,17.1,32.9,percent,Arkansas
-5045,Faulkner,2,14.4,12.4,16.4,15.9,12.2,19.6,percent,Arkansas
-5047,Franklin,6,16.2,12.3,20.1,23.2,15.9,30.5,percent,Arkansas
-5049,Fulton,9,17.7,13.8,21.6,26.5,17.6,35.4,percent,Arkansas
-5051,Garland,3,16.9,14.5,19.3,23.9,18.4,29.4,percent,Arkansas
-5053,Grant,2,12.1,9.8,14.4,15.6,10.5,20.7,percent,Arkansas
-5055,Greene,4,15.5,12.6,18.4,20.0,14.0,26.0,percent,Arkansas
-5057,Hempstead,6,18.5,14.0,23.0,26.3,17.5,35.1,percent,Arkansas
-5059,Hot Spring,6,20.2,16.8,23.6,26.7,19.8,33.6,percent,Arkansas
-5061,Howard,6,16.8,12.9,20.7,24.9,16.9,32.9,percent,Arkansas
-5063,Independence,7,15.9,13.1,18.7,20.1,14.2,26.0,percent,Arkansas
-5065,Izard,9,15.9,11.8,20.0,22.7,14.5,30.9,percent,Arkansas
-5067,Jackson,6,22.9,17.9,27.9,32.4,23.4,41.4,percent,Arkansas
-5069,Jefferson,3,24.4,20.3,28.5,33.1,24.8,41.4,percent,Arkansas
-5071,Johnson,7,17.5,14.1,20.9,23.5,16.6,30.4,percent,Arkansas
-5073,Lafayette,8,25.5,20.0,31.0,37.1,26.8,47.4,percent,Arkansas
-5075,Lawrence,6,18.4,14.1,22.7,27.0,18.6,35.4,percent,Arkansas
-5077,Lee,7,35.4,25.9,44.9,42.1,27.8,56.4,percent,Arkansas
-5079,Lincoln,3,27.1,21.1,33.1,31.8,24.2,39.4,percent,Arkansas
-5081,Little River,3,17.8,13.9,21.7,26.1,18.5,33.7,percent,Arkansas
-5083,Logan,6,17.4,14.1,20.7,22.2,14.9,29.5,percent,Arkansas
-5085,Lonoke,2,10.7,8.5,12.9,14.9,10.8,19.0,percent,Arkansas
-5087,Madison,2,16.4,12.5,20.3,24.6,16.7,32.5,percent,Arkansas
-5089,Marion,9,16.3,12.5,20.1,27.1,17.5,36.7,percent,Arkansas
-5091,Miller,3,14.1,10.4,17.8,24.0,15.6,32.4,percent,Arkansas
-5093,Mississippi,4,23.0,18.4,27.6,30.0,21.2,38.8,percent,Arkansas
-5095,Monroe,7,25.5,19.2,31.8,40.8,28.2,53.4,percent,Arkansas
-5097,Montgomery,8,19.9,15.7,24.1,31.0,21.2,40.8,percent,Arkansas
-5099,Nevada,7,24.1,19.0,29.2,38.3,28.8,47.8,percent,Arkansas
-5101,Newton,9,18.1,13.4,22.8,31.1,20.5,41.7,percent,Arkansas
-5103,Ouachita,7,17.3,12.6,22.0,27.6,18.2,37.0,percent,Arkansas
-5105,Perry,2,16.5,13.0,20.0,25.1,17.5,32.7,percent,Arkansas
-5107,Phillips,6,33.3,26.4,40.2,49.9,37.1,62.7,percent,Arkansas
-5109,Pike,9,16.9,13.0,20.8,23.9,15.2,32.6,percent,Arkansas
-5111,Poinsett,3,23.1,19.3,26.9,32.9,25.0,40.8,percent,Arkansas
-5113,Polk,7,20.2,16.4,24.0,28.9,20.9,36.9,percent,Arkansas
-5115,Pope,5,16.9,14.2,19.6,19.9,14.9,24.9,percent,Arkansas
-5117,Prairie,8,15.0,11.2,18.8,22.1,14.7,29.5,percent,Arkansas
-5119,Pulaski,2,14.6,13.1,16.1,19.9,15.9,23.9,percent,Arkansas
-5121,Randolph,7,17.3,13.4,21.2,25.8,18.2,33.4,percent,Arkansas
-5123,St. Francis,6,32.0,25.2,38.8,42.3,29.8,54.8,percent,Arkansas
-5125,Saline,2,9.6,8.0,11.2,14.9,11.7,18.1,percent,Arkansas
-5127,Scott,6,19.6,14.9,24.3,29.8,20.1,39.5,percent,Arkansas
-5129,Searcy,9,22.4,17.0,27.8,34.1,23.1,45.1,percent,Arkansas
-5131,Sebastian,2,15.9,13.4,18.4,21.7,16.2,27.2,percent,Arkansas
-5133,Sevier,6,17.7,13.7,21.7,25.0,17.2,32.8,percent,Arkansas
-5135,Sharp,7,23.3,19.2,27.4,35.9,25.8,46.0,percent,Arkansas
-5137,Stone,9,19.3,15.0,23.6,30.8,21.3,40.3,percent,Arkansas
-5139,Union,7,18.9,15.4,22.4,25.7,19.2,32.2,percent,Arkansas
-5141,Van Buren,8,19.9,16.1,23.7,29.6,21.6,37.6,percent,Arkansas
-5143,Washington,2,15.1,13.2,17.0,16.0,11.9,20.1,percent,Arkansas
-5145,White,4,15.4,12.7,18.1,20.4,15.0,25.8,percent,Arkansas
-5147,Woodruff,9,27.1,21.8,32.4,38.1,27.2,49.0,percent,Arkansas
-5149,Yell,6,15.6,11.9,19.3,23.7,16.1,31.3,percent,Arkansas
+05001,Arkansas,6,15.8,11.7,19.9,24.1,15.9,32.3,percent,Arkansas
+05003,Ashley,7,18.5,14.2,22.8,24.8,16.0,33.6,percent,Arkansas
+05005,Baxter,7,12.7,10.0,15.4,18.1,11.6,24.6,percent,Arkansas
+05007,Benton,2,8.9,7.7,10.1,12.2,9.6,14.8,percent,Arkansas
+05009,Boone,7,15.1,12.0,18.2,18.8,13.3,24.3,percent,Arkansas
+05011,Bradley,7,22.9,17.9,27.9,31.3,22.3,40.3,percent,Arkansas
+05013,Calhoun,9,15.4,11.5,19.3,20.2,13.5,26.9,percent,Arkansas
+05015,Carroll,6,14.7,11.2,18.2,19.2,11.8,26.6,percent,Arkansas
+05017,Chicot,7,31.0,24.1,37.9,45.1,32.5,57.7,percent,Arkansas
+05019,Clark,7,20.6,16.2,25.0,23.1,15.5,30.7,percent,Arkansas
+05021,Clay,7,18.7,14.8,22.6,25.5,18.1,32.9,percent,Arkansas
+05023,Cleburne,6,14.1,10.7,17.5,21.9,14.6,29.2,percent,Arkansas
+05025,Cleveland,3,13.7,10.2,17.2,19.8,13.5,26.1,percent,Arkansas
+05027,Columbia,7,21.2,16.2,26.2,26.5,17.9,35.1,percent,Arkansas
+05029,Conway,6,15.6,12.0,19.2,22.7,15.1,30.3,percent,Arkansas
+05031,Craighead,3,16.9,14.7,19.1,25.0,20.6,29.4,percent,Arkansas
+05033,Crawford,2,18.3,15.5,21.1,28.1,22.3,33.9,percent,Arkansas
+05035,Crittenden,1,22.4,18.2,26.6,32.1,23.3,40.9,percent,Arkansas
+05037,Cross,6,17.8,13.7,21.9,26.3,17.4,35.2,percent,Arkansas
+05039,Dallas,6,18.8,13.9,23.7,31.7,20.8,42.6,percent,Arkansas
+05041,Desha,6,25.4,19.5,31.3,38.6,27.1,50.1,percent,Arkansas
+05043,Drew,6,18.5,14.2,22.8,25.0,17.1,32.9,percent,Arkansas
+05045,Faulkner,2,14.4,12.4,16.4,15.9,12.2,19.6,percent,Arkansas
+05047,Franklin,6,16.2,12.3,20.1,23.2,15.9,30.5,percent,Arkansas
+05049,Fulton,9,17.7,13.8,21.6,26.5,17.6,35.4,percent,Arkansas
+05051,Garland,3,16.9,14.5,19.3,23.9,18.4,29.4,percent,Arkansas
+05053,Grant,2,12.1,9.8,14.4,15.6,10.5,20.7,percent,Arkansas
+05055,Greene,4,15.5,12.6,18.4,20.0,14.0,26.0,percent,Arkansas
+05057,Hempstead,6,18.5,14.0,23.0,26.3,17.5,35.1,percent,Arkansas
+05059,Hot Spring,6,20.2,16.8,23.6,26.7,19.8,33.6,percent,Arkansas
+05061,Howard,6,16.8,12.9,20.7,24.9,16.9,32.9,percent,Arkansas
+05063,Independence,7,15.9,13.1,18.7,20.1,14.2,26.0,percent,Arkansas
+05065,Izard,9,15.9,11.8,20.0,22.7,14.5,30.9,percent,Arkansas
+05067,Jackson,6,22.9,17.9,27.9,32.4,23.4,41.4,percent,Arkansas
+05069,Jefferson,3,24.4,20.3,28.5,33.1,24.8,41.4,percent,Arkansas
+05071,Johnson,7,17.5,14.1,20.9,23.5,16.6,30.4,percent,Arkansas
+05073,Lafayette,8,25.5,20.0,31.0,37.1,26.8,47.4,percent,Arkansas
+05075,Lawrence,6,18.4,14.1,22.7,27.0,18.6,35.4,percent,Arkansas
+05077,Lee,7,35.4,25.9,44.9,42.1,27.8,56.4,percent,Arkansas
+05079,Lincoln,3,27.1,21.1,33.1,31.8,24.2,39.4,percent,Arkansas
+05081,Little River,3,17.8,13.9,21.7,26.1,18.5,33.7,percent,Arkansas
+05083,Logan,6,17.4,14.1,20.7,22.2,14.9,29.5,percent,Arkansas
+05085,Lonoke,2,10.7,8.5,12.9,14.9,10.8,19.0,percent,Arkansas
+05087,Madison,2,16.4,12.5,20.3,24.6,16.7,32.5,percent,Arkansas
+05089,Marion,9,16.3,12.5,20.1,27.1,17.5,36.7,percent,Arkansas
+05091,Miller,3,14.1,10.4,17.8,24.0,15.6,32.4,percent,Arkansas
+05093,Mississippi,4,23.0,18.4,27.6,30.0,21.2,38.8,percent,Arkansas
+05095,Monroe,7,25.5,19.2,31.8,40.8,28.2,53.4,percent,Arkansas
+05097,Montgomery,8,19.9,15.7,24.1,31.0,21.2,40.8,percent,Arkansas
+05099,Nevada,7,24.1,19.0,29.2,38.3,28.8,47.8,percent,Arkansas
+05101,Newton,9,18.1,13.4,22.8,31.1,20.5,41.7,percent,Arkansas
+05103,Ouachita,7,17.3,12.6,22.0,27.6,18.2,37.0,percent,Arkansas
+05105,Perry,2,16.5,13.0,20.0,25.1,17.5,32.7,percent,Arkansas
+05107,Phillips,6,33.3,26.4,40.2,49.9,37.1,62.7,percent,Arkansas
+05109,Pike,9,16.9,13.0,20.8,23.9,15.2,32.6,percent,Arkansas
+05111,Poinsett,3,23.1,19.3,26.9,32.9,25.0,40.8,percent,Arkansas
+05113,Polk,7,20.2,16.4,24.0,28.9,20.9,36.9,percent,Arkansas
+05115,Pope,5,16.9,14.2,19.6,19.9,14.9,24.9,percent,Arkansas
+05117,Prairie,8,15.0,11.2,18.8,22.1,14.7,29.5,percent,Arkansas
+05119,Pulaski,2,14.6,13.1,16.1,19.9,15.9,23.9,percent,Arkansas
+05121,Randolph,7,17.3,13.4,21.2,25.8,18.2,33.4,percent,Arkansas
+05123,St. Francis,6,32.0,25.2,38.8,42.3,29.8,54.8,percent,Arkansas
+05125,Saline,2,9.6,8.0,11.2,14.9,11.7,18.1,percent,Arkansas
+05127,Scott,6,19.6,14.9,24.3,29.8,20.1,39.5,percent,Arkansas
+05129,Searcy,9,22.4,17.0,27.8,34.1,23.1,45.1,percent,Arkansas
+05131,Sebastian,2,15.9,13.4,18.4,21.7,16.2,27.2,percent,Arkansas
+05133,Sevier,6,17.7,13.7,21.7,25.0,17.2,32.8,percent,Arkansas
+05135,Sharp,7,23.3,19.2,27.4,35.9,25.8,46.0,percent,Arkansas
+05137,Stone,9,19.3,15.0,23.6,30.8,21.3,40.3,percent,Arkansas
+05139,Union,7,18.9,15.4,22.4,25.7,19.2,32.2,percent,Arkansas
+05141,Van Buren,8,19.9,16.1,23.7,29.6,21.6,37.6,percent,Arkansas
+05143,Washington,2,15.1,13.2,17.0,16.0,11.9,20.1,percent,Arkansas
+05145,White,4,15.4,12.7,18.1,20.4,15.0,25.8,percent,Arkansas
+05147,Woodruff,9,27.1,21.8,32.4,38.1,27.2,49.0,percent,Arkansas
+05149,Yell,6,15.6,11.9,19.3,23.7,16.1,31.3,percent,Arkansas
 47001,Anderson,2,15.3,12.8,17.8,21.9,16.7,27.1,percent,Tennessee
 47003,Bedford,4,13.9,11.2,16.6,19.2,13.3,25.1,percent,Tennessee
 47005,Benton,7,17.6,13.7,21.5,27.8,19.5,36.1,percent,Tennessee
@@ -1819,70 +1819,70 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 49053,Washington,3,9.5,7.8,11.2,12.9,9.7,16.1,percent,Utah
 49055,Wayne,9,11.8,8.6,15.0,20.2,13.3,27.1,percent,Utah
 49057,Weber,2,6.9,5.5,8.3,8.0,5.4,10.6,percent,Utah
-8001,Adams,1,9.3,8.1,10.5,12.1,9.6,14.6,percent,Colorado
-8003,Alamosa,7,19.6,15.2,24.0,24.9,17.2,32.6,percent,Colorado
-8005,Arapahoe,1,7.2,6.2,8.2,9.0,6.7,11.3,percent,Colorado
-8007,Archuleta,7,10.8,8.1,13.5,20.1,13.2,27.0,percent,Colorado
-8009,Baca,9,19.3,14.7,23.9,28.7,19.1,38.3,percent,Colorado
-8011,Bent,7,34.4,27.1,41.7,31.0,21.6,40.4,percent,Colorado
-8013,Boulder,2,10.7,9.8,11.6,8.1,6.0,10.2,percent,Colorado
-8014,Broomfield,1,4.1,3.2,5.0,4.6,3.2,6.0,percent,Colorado
-8015,Chaffee,7,11.0,8.6,13.4,13.1,9.1,17.1,percent,Colorado
-8017,Cheyenne,9,13.7,10.3,17.1,20.6,13.9,27.3,percent,Colorado
-8019,Clear Creek,1,7.4,5.7,9.1,9.7,6.5,12.9,percent,Colorado
-8021,Conejos,9,19.9,15.5,24.3,26.2,18.4,34.0,percent,Colorado
-8023,Costilla,9,24.6,18.3,30.9,38.9,25.8,52.0,percent,Colorado
-8025,Crowley,8,40.0,28.9,51.1,30.3,20.2,40.4,percent,Colorado
-8027,Custer,8,11.8,8.7,14.9,25.2,16.8,33.6,percent,Colorado
-8029,Delta,6,15.1,12.1,18.1,21.1,14.8,27.4,percent,Colorado
-8031,Denver,1,12.1,10.9,13.3,15.6,12.4,18.8,percent,Colorado
-8033,Dolores,9,12.8,9.6,16.0,15.4,10.2,20.6,percent,Colorado
-8035,Douglas,1,2.7,2.2,3.2,2.4,1.6,3.2,percent,Colorado
-8037,Eagle,5,7.9,6.5,9.3,8.2,5.8,10.6,percent,Colorado
-8039,Elbert,1,5.7,4.5,6.9,7.1,4.8,9.4,percent,Colorado
-8041,El Paso,2,8.8,7.8,9.8,10.4,8.0,12.8,percent,Colorado
-8043,Fremont,4,16.1,12.8,19.4,20.9,15.0,26.8,percent,Colorado
-8045,Garfield,5,9.6,8.0,11.2,11.9,8.6,15.2,percent,Colorado
-8047,Gilpin,1,6.8,5.2,8.4,8.5,5.6,11.4,percent,Colorado
-8049,Grand,7,8.1,6.4,9.8,9.5,6.4,12.6,percent,Colorado
-8051,Gunnison,7,11.6,9.0,14.2,10.1,6.6,13.6,percent,Colorado
-8053,Hinsdale,9,8.9,6.6,11.2,19.1,12.6,25.6,percent,Colorado
-8055,Huerfano,6,20.0,14.9,25.1,35.4,23.6,47.2,percent,Colorado
-8057,Jackson,9,12.6,9.4,15.8,18.5,12.5,24.5,percent,Colorado
-8059,Jefferson,1,7.2,6.3,8.1,9.0,7.2,10.8,percent,Colorado
-8061,Kiowa,9,13.5,10.4,16.6,17.6,11.8,23.4,percent,Colorado
-8063,Kit Carson,7,13.2,10.0,16.4,20.0,13.5,26.5,percent,Colorado
-8065,Lake,6,11.4,8.5,14.3,18.1,12.1,24.1,percent,Colorado
-8067,La Plata,4,11.3,9.3,13.3,14.2,10.8,17.6,percent,Colorado
-8069,Larimer,2,10.3,8.9,11.7,8.5,6.0,11.0,percent,Colorado
-8071,Las Animas,7,17.6,13.6,21.6,24.9,16.3,33.5,percent,Colorado
-8073,Lincoln,8,17.0,13.2,20.8,21.0,14.0,28.0,percent,Colorado
-8075,Logan,7,12.9,9.5,16.3,16.3,10.7,21.9,percent,Colorado
-8077,Mesa,3,11.2,9.1,13.3,14.3,10.2,18.4,percent,Colorado
-8079,Mineral,9,9.4,7.2,11.6,16.0,10.8,21.2,percent,Colorado
-8081,Moffat,7,12.2,10.0,14.4,14.5,10.4,18.6,percent,Colorado
-8083,Montezuma,6,14.9,11.3,18.5,24.6,16.2,33.0,percent,Colorado
-8085,Montrose,4,13.2,10.6,15.8,18.5,13.1,23.9,percent,Colorado
-8087,Morgan,6,11.9,9.4,14.4,15.0,10.6,19.4,percent,Colorado
-8089,Otero,6,24.2,20.2,28.2,33.6,25.9,41.3,percent,Colorado
-8091,Ouray,9,6.9,5.1,8.7,9.7,6.5,12.9,percent,Colorado
-8093,Park,1,8.6,6.6,10.6,13.0,9.1,16.9,percent,Colorado
-8095,Phillips,9,10.4,7.8,13.0,14.8,9.7,19.9,percent,Colorado
-8097,Pitkin,7,6.2,4.6,7.8,5.8,3.9,7.7,percent,Colorado
-8099,Prowers,7,18.2,13.5,22.9,25.5,17.0,34.0,percent,Colorado
-8101,Pueblo,3,17.8,15.8,19.8,24.1,19.6,28.6,percent,Colorado
-8103,Rio Blanco,9,10.3,7.8,12.8,12.8,8.8,16.8,percent,Colorado
-8105,Rio Grande,7,14.4,10.9,17.9,21.8,14.5,29.1,percent,Colorado
-8107,Routt,7,7.2,5.8,8.6,6.5,4.2,8.8,percent,Colorado
-8109,Saguache,9,25.4,19.8,31.0,38.8,26.2,51.4,percent,Colorado
-8111,San Juan,9,13.7,10.2,17.2,19.3,12.8,25.8,percent,Colorado
-8113,San Miguel,9,9.9,8.0,11.8,9.3,6.3,12.3,percent,Colorado
-8115,Sedgwick,9,14.6,11.2,18.0,24.5,16.5,32.5,percent,Colorado
-8117,Summit,5,6.4,4.7,8.1,6.9,4.6,9.2,percent,Colorado
-8119,Teller,2,7.9,6.0,9.8,12.1,8.1,16.1,percent,Colorado
-8121,Washington,9,11.8,8.9,14.7,17.2,11.4,23.0,percent,Colorado
-8123,Weld,2,8.4,7.1,9.7,9.8,7.4,12.2,percent,Colorado
-8125,Yuma,7,12.8,10.0,15.6,15.9,10.6,21.2,percent,Colorado
+08001,Adams,1,9.3,8.1,10.5,12.1,9.6,14.6,percent,Colorado
+08003,Alamosa,7,19.6,15.2,24.0,24.9,17.2,32.6,percent,Colorado
+08005,Arapahoe,1,7.2,6.2,8.2,9.0,6.7,11.3,percent,Colorado
+08007,Archuleta,7,10.8,8.1,13.5,20.1,13.2,27.0,percent,Colorado
+08009,Baca,9,19.3,14.7,23.9,28.7,19.1,38.3,percent,Colorado
+08011,Bent,7,34.4,27.1,41.7,31.0,21.6,40.4,percent,Colorado
+08013,Boulder,2,10.7,9.8,11.6,8.1,6.0,10.2,percent,Colorado
+08014,Broomfield,1,4.1,3.2,5.0,4.6,3.2,6.0,percent,Colorado
+08015,Chaffee,7,11.0,8.6,13.4,13.1,9.1,17.1,percent,Colorado
+08017,Cheyenne,9,13.7,10.3,17.1,20.6,13.9,27.3,percent,Colorado
+08019,Clear Creek,1,7.4,5.7,9.1,9.7,6.5,12.9,percent,Colorado
+08021,Conejos,9,19.9,15.5,24.3,26.2,18.4,34.0,percent,Colorado
+08023,Costilla,9,24.6,18.3,30.9,38.9,25.8,52.0,percent,Colorado
+08025,Crowley,8,40.0,28.9,51.1,30.3,20.2,40.4,percent,Colorado
+08027,Custer,8,11.8,8.7,14.9,25.2,16.8,33.6,percent,Colorado
+08029,Delta,6,15.1,12.1,18.1,21.1,14.8,27.4,percent,Colorado
+08031,Denver,1,12.1,10.9,13.3,15.6,12.4,18.8,percent,Colorado
+08033,Dolores,9,12.8,9.6,16.0,15.4,10.2,20.6,percent,Colorado
+08035,Douglas,1,2.7,2.2,3.2,2.4,1.6,3.2,percent,Colorado
+08037,Eagle,5,7.9,6.5,9.3,8.2,5.8,10.6,percent,Colorado
+08039,Elbert,1,5.7,4.5,6.9,7.1,4.8,9.4,percent,Colorado
+08041,El Paso,2,8.8,7.8,9.8,10.4,8.0,12.8,percent,Colorado
+08043,Fremont,4,16.1,12.8,19.4,20.9,15.0,26.8,percent,Colorado
+08045,Garfield,5,9.6,8.0,11.2,11.9,8.6,15.2,percent,Colorado
+08047,Gilpin,1,6.8,5.2,8.4,8.5,5.6,11.4,percent,Colorado
+08049,Grand,7,8.1,6.4,9.8,9.5,6.4,12.6,percent,Colorado
+08051,Gunnison,7,11.6,9.0,14.2,10.1,6.6,13.6,percent,Colorado
+08053,Hinsdale,9,8.9,6.6,11.2,19.1,12.6,25.6,percent,Colorado
+08055,Huerfano,6,20.0,14.9,25.1,35.4,23.6,47.2,percent,Colorado
+08057,Jackson,9,12.6,9.4,15.8,18.5,12.5,24.5,percent,Colorado
+08059,Jefferson,1,7.2,6.3,8.1,9.0,7.2,10.8,percent,Colorado
+08061,Kiowa,9,13.5,10.4,16.6,17.6,11.8,23.4,percent,Colorado
+08063,Kit Carson,7,13.2,10.0,16.4,20.0,13.5,26.5,percent,Colorado
+08065,Lake,6,11.4,8.5,14.3,18.1,12.1,24.1,percent,Colorado
+08067,La Plata,4,11.3,9.3,13.3,14.2,10.8,17.6,percent,Colorado
+08069,Larimer,2,10.3,8.9,11.7,8.5,6.0,11.0,percent,Colorado
+08071,Las Animas,7,17.6,13.6,21.6,24.9,16.3,33.5,percent,Colorado
+08073,Lincoln,8,17.0,13.2,20.8,21.0,14.0,28.0,percent,Colorado
+08075,Logan,7,12.9,9.5,16.3,16.3,10.7,21.9,percent,Colorado
+08077,Mesa,3,11.2,9.1,13.3,14.3,10.2,18.4,percent,Colorado
+08079,Mineral,9,9.4,7.2,11.6,16.0,10.8,21.2,percent,Colorado
+08081,Moffat,7,12.2,10.0,14.4,14.5,10.4,18.6,percent,Colorado
+08083,Montezuma,6,14.9,11.3,18.5,24.6,16.2,33.0,percent,Colorado
+08085,Montrose,4,13.2,10.6,15.8,18.5,13.1,23.9,percent,Colorado
+08087,Morgan,6,11.9,9.4,14.4,15.0,10.6,19.4,percent,Colorado
+08089,Otero,6,24.2,20.2,28.2,33.6,25.9,41.3,percent,Colorado
+08091,Ouray,9,6.9,5.1,8.7,9.7,6.5,12.9,percent,Colorado
+08093,Park,1,8.6,6.6,10.6,13.0,9.1,16.9,percent,Colorado
+08095,Phillips,9,10.4,7.8,13.0,14.8,9.7,19.9,percent,Colorado
+08097,Pitkin,7,6.2,4.6,7.8,5.8,3.9,7.7,percent,Colorado
+08099,Prowers,7,18.2,13.5,22.9,25.5,17.0,34.0,percent,Colorado
+08101,Pueblo,3,17.8,15.8,19.8,24.1,19.6,28.6,percent,Colorado
+08103,Rio Blanco,9,10.3,7.8,12.8,12.8,8.8,16.8,percent,Colorado
+08105,Rio Grande,7,14.4,10.9,17.9,21.8,14.5,29.1,percent,Colorado
+08107,Routt,7,7.2,5.8,8.6,6.5,4.2,8.8,percent,Colorado
+08109,Saguache,9,25.4,19.8,31.0,38.8,26.2,51.4,percent,Colorado
+08111,San Juan,9,13.7,10.2,17.2,19.3,12.8,25.8,percent,Colorado
+08113,San Miguel,9,9.9,8.0,11.8,9.3,6.3,12.3,percent,Colorado
+08115,Sedgwick,9,14.6,11.2,18.0,24.5,16.5,32.5,percent,Colorado
+08117,Summit,5,6.4,4.7,8.1,6.9,4.6,9.2,percent,Colorado
+08119,Teller,2,7.9,6.0,9.8,12.1,8.1,16.1,percent,Colorado
+08121,Washington,9,11.8,8.9,14.7,17.2,11.4,23.0,percent,Colorado
+08123,Weld,2,8.4,7.1,9.7,9.8,7.4,12.2,percent,Colorado
+08125,Yuma,7,12.8,10.0,15.6,15.9,10.6,21.2,percent,Colorado
 46003,Aurora,9,10.2,7.6,12.8,14.4,9.2,19.6,percent,South Dakota
 46005,Beadle,7,12.9,10.2,15.6,15.7,10.4,21.0,percent,South Dakota
 46007,Bennett,9,31.6,23.9,39.3,44.4,29.1,59.7,percent,South Dakota
@@ -2470,7 +2470,6 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 21239,Woodford,2,8.3,6.4,10.2,12.0,8.0,16.0,percent,Kentucky
 15001,Hawaii,5,13.1,10.8,15.4,18.8,13.6,24.0,percent,Hawaii
 15003,Honolulu,2,7.9,7.1,8.7,9.2,7.6,10.8,percent,Hawaii
-15005,Kalawao,3,,,,,,,percent,Hawaii
 15007,Kauai,5,9.3,6.9,11.7,11.7,7.7,15.7,percent,Hawaii
 15009,Maui,3,10.7,8.9,12.5,13.4,9.9,16.9,percent,Hawaii
 10001,Kent,3,12.7,10.9,14.5,17.8,14.0,21.6,percent,Delaware
@@ -2607,73 +2606,73 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 22123,West Carroll,9,21.0,16.0,26.0,29.3,20.4,38.2,percent,Louisiana
 22125,West Feliciana,2,22.1,16.4,27.8,19.3,13.2,25.4,percent,Louisiana
 22127,Winn,6,23.4,17.7,29.1,28.8,19.8,37.8,percent,Louisiana
-1001,Autauga,2,12.1,9.9,14.3,15.9,11.5,20.3,percent,Alabama
-1003,Baldwin,3,10.1,8.4,11.8,13.5,9.6,17.4,percent,Alabama
-1005,Barbour,6,27.1,22.0,32.2,41.0,31.2,50.8,percent,Alabama
-1007,Bibb,1,20.3,16.0,24.6,25.9,18.7,33.1,percent,Alabama
-1009,Blount,1,16.3,14.1,18.5,21.0,16.7,25.3,percent,Alabama
-1011,Bullock,6,30.0,21.7,38.3,39.9,26.4,53.4,percent,Alabama
-1013,Butler,6,21.6,16.8,26.4,34.6,26.0,43.2,percent,Alabama
-1015,Calhoun,3,17.2,14.4,20.0,24.6,19.1,30.1,percent,Alabama
-1017,Chambers,6,19.6,15.7,23.5,30.4,22.5,38.3,percent,Alabama
-1019,Cherokee,6,15.9,12.3,19.5,23.3,15.9,30.7,percent,Alabama
-1021,Chilton,1,16.0,12.7,19.3,23.1,17.1,29.1,percent,Alabama
-1023,Choctaw,9,22.6,17.4,27.8,30.4,21.4,39.4,percent,Alabama
-1025,Clarke,7,18.4,13.5,23.3,28.6,19.0,38.2,percent,Alabama
-1027,Clay,9,16.6,13.0,20.2,26.0,19.4,32.6,percent,Alabama
-1029,Cleburne,8,13.3,9.8,16.8,17.9,11.7,24.1,percent,Alabama
-1031,Coffee,4,15.0,12.7,17.3,21.8,17.0,26.6,percent,Alabama
-1033,Colbert,3,14.6,11.7,17.5,19.4,13.5,25.3,percent,Alabama
-1035,Conecuh,7,22.2,16.4,28.0,34.7,23.4,46.0,percent,Alabama
-1037,Coosa,8,17.1,12.7,21.5,27.8,18.6,37.0,percent,Alabama
-1039,Covington,6,17.2,14.0,20.4,26.6,20.2,33.0,percent,Alabama
-1041,Crenshaw,8,16.8,12.5,21.1,25.0,16.4,33.6,percent,Alabama
-1043,Cullman,4,12.2,9.6,14.8,17.0,12.0,22.0,percent,Alabama
-1045,Dale,4,18.1,15.5,20.7,27.8,22.3,33.3,percent,Alabama
-1047,Dallas,4,26.0,20.4,31.6,41.0,30.5,51.5,percent,Alabama
-1049,DeKalb,6,18.2,15.1,21.3,29.4,24.2,34.6,percent,Alabama
-1051,Elmore,2,11.4,9.1,13.7,17.7,13.4,22.0,percent,Alabama
-1053,Escambia,6,20.5,16.1,24.9,27.1,19.3,34.9,percent,Alabama
-1055,Etowah,3,18.8,16.3,21.3,27.0,21.6,32.4,percent,Alabama
-1057,Fayette,6,17.0,13.1,20.9,23.0,15.4,30.6,percent,Alabama
-1059,Franklin,6,16.1,12.1,20.1,24.5,17.1,31.9,percent,Alabama
-1061,Geneva,3,16.1,12.1,20.1,21.3,12.9,29.7,percent,Alabama
-1063,Greene,8,31.7,24.2,39.2,45.8,31.5,60.1,percent,Alabama
-1065,Hale,3,20.5,15.3,25.7,30.8,20.4,41.2,percent,Alabama
-1067,Henry,3,17.2,13.7,20.7,29.2,22.4,36.0,percent,Alabama
-1069,Houston,3,19.4,17.5,21.3,27.8,23.9,31.7,percent,Alabama
-1071,Jackson,6,14.7,11.8,17.6,19.6,13.8,25.4,percent,Alabama
-1073,Jefferson,1,16.2,14.8,17.6,22.5,19.4,25.6,percent,Alabama
-1075,Lamar,8,15.3,11.4,19.2,21.6,14.3,28.9,percent,Alabama
-1077,Lauderdale,3,15.7,13.1,18.3,20.4,15.0,25.8,percent,Alabama
-1079,Lawrence,3,17.7,14.4,21.0,22.8,16.3,29.3,percent,Alabama
-1081,Lee,3,15.5,13.6,17.4,14.2,9.4,19.0,percent,Alabama
-1083,Limestone,2,12.0,10.0,14.0,16.3,12.6,20.0,percent,Alabama
-1085,Lowndes,2,26.6,21.0,32.2,36.1,24.5,47.7,percent,Alabama
-1087,Macon,6,29.3,22.3,36.3,39.2,26.4,52.0,percent,Alabama
-1089,Madison,2,11.5,10.2,12.8,16.8,14.0,19.6,percent,Alabama
-1091,Marengo,7,24.8,20.1,29.5,36.3,27.0,45.6,percent,Alabama
-1093,Marion,7,16.9,13.0,20.8,23.4,15.9,30.9,percent,Alabama
-1095,Marshall,4,15.7,12.9,18.5,21.5,15.9,27.1,percent,Alabama
-1097,Mobile,2,17.7,15.7,19.7,26.4,22.3,30.5,percent,Alabama
-1099,Monroe,7,23.3,18.6,28.0,31.4,21.9,40.9,percent,Alabama
-1101,Montgomery,2,15.8,13.2,18.4,23.3,17.5,29.1,percent,Alabama
-1103,Morgan,3,13.7,11.3,16.1,18.8,13.9,23.7,percent,Alabama
-1105,Perry,8,33.9,25.3,42.5,46.2,31.0,61.4,percent,Alabama
-1107,Pickens,3,24.3,18.8,29.8,34.0,24.6,43.4,percent,Alabama
-1109,Pike,6,21.8,17.9,25.7,29.8,22.1,37.5,percent,Alabama
-1111,Randolph,6,17.5,13.3,21.7,28.4,19.6,37.2,percent,Alabama
-1113,Russell,2,18.9,15.1,22.7,25.4,17.4,33.4,percent,Alabama
-1115,St. Clair,1,11.2,8.6,13.8,14.9,10.4,19.4,percent,Alabama
-1117,Shelby,1,6.2,5.0,7.4,7.7,5.3,10.1,percent,Alabama
-1119,Sumter,8,36.4,28.9,43.9,45.3,32.1,58.5,percent,Alabama
-1121,Talladega,4,17.4,14.3,20.5,25.1,18.6,31.6,percent,Alabama
-1123,Tallapoosa,6,16.0,12.5,19.5,25.9,18.5,33.3,percent,Alabama
-1125,Tuscaloosa,3,16.2,13.7,18.7,19.7,14.7,24.7,percent,Alabama
-1127,Walker,1,17.3,14.4,20.2,23.7,17.6,29.8,percent,Alabama
-1129,Washington,8,18.6,14.4,22.8,28.2,21.0,35.4,percent,Alabama
-1131,Wilcox,9,32.5,25.2,39.8,48.9,34.4,63.4,percent,Alabama
-1133,Winston,6,16.7,13.3,20.1,22.5,15.5,29.5,percent,Alabama
+01001,Autauga,2,12.1,9.9,14.3,15.9,11.5,20.3,percent,Alabama
+01003,Baldwin,3,10.1,8.4,11.8,13.5,9.6,17.4,percent,Alabama
+01005,Barbour,6,27.1,22.0,32.2,41.0,31.2,50.8,percent,Alabama
+01007,Bibb,1,20.3,16.0,24.6,25.9,18.7,33.1,percent,Alabama
+01009,Blount,1,16.3,14.1,18.5,21.0,16.7,25.3,percent,Alabama
+01011,Bullock,6,30.0,21.7,38.3,39.9,26.4,53.4,percent,Alabama
+01013,Butler,6,21.6,16.8,26.4,34.6,26.0,43.2,percent,Alabama
+01015,Calhoun,3,17.2,14.4,20.0,24.6,19.1,30.1,percent,Alabama
+01017,Chambers,6,19.6,15.7,23.5,30.4,22.5,38.3,percent,Alabama
+01019,Cherokee,6,15.9,12.3,19.5,23.3,15.9,30.7,percent,Alabama
+01021,Chilton,1,16.0,12.7,19.3,23.1,17.1,29.1,percent,Alabama
+01023,Choctaw,9,22.6,17.4,27.8,30.4,21.4,39.4,percent,Alabama
+01025,Clarke,7,18.4,13.5,23.3,28.6,19.0,38.2,percent,Alabama
+01027,Clay,9,16.6,13.0,20.2,26.0,19.4,32.6,percent,Alabama
+01029,Cleburne,8,13.3,9.8,16.8,17.9,11.7,24.1,percent,Alabama
+01031,Coffee,4,15.0,12.7,17.3,21.8,17.0,26.6,percent,Alabama
+01033,Colbert,3,14.6,11.7,17.5,19.4,13.5,25.3,percent,Alabama
+01035,Conecuh,7,22.2,16.4,28.0,34.7,23.4,46.0,percent,Alabama
+01037,Coosa,8,17.1,12.7,21.5,27.8,18.6,37.0,percent,Alabama
+01039,Covington,6,17.2,14.0,20.4,26.6,20.2,33.0,percent,Alabama
+01041,Crenshaw,8,16.8,12.5,21.1,25.0,16.4,33.6,percent,Alabama
+01043,Cullman,4,12.2,9.6,14.8,17.0,12.0,22.0,percent,Alabama
+01045,Dale,4,18.1,15.5,20.7,27.8,22.3,33.3,percent,Alabama
+01047,Dallas,4,26.0,20.4,31.6,41.0,30.5,51.5,percent,Alabama
+01049,DeKalb,6,18.2,15.1,21.3,29.4,24.2,34.6,percent,Alabama
+01051,Elmore,2,11.4,9.1,13.7,17.7,13.4,22.0,percent,Alabama
+01053,Escambia,6,20.5,16.1,24.9,27.1,19.3,34.9,percent,Alabama
+01055,Etowah,3,18.8,16.3,21.3,27.0,21.6,32.4,percent,Alabama
+01057,Fayette,6,17.0,13.1,20.9,23.0,15.4,30.6,percent,Alabama
+01059,Franklin,6,16.1,12.1,20.1,24.5,17.1,31.9,percent,Alabama
+01061,Geneva,3,16.1,12.1,20.1,21.3,12.9,29.7,percent,Alabama
+01063,Greene,8,31.7,24.2,39.2,45.8,31.5,60.1,percent,Alabama
+01065,Hale,3,20.5,15.3,25.7,30.8,20.4,41.2,percent,Alabama
+01067,Henry,3,17.2,13.7,20.7,29.2,22.4,36.0,percent,Alabama
+01069,Houston,3,19.4,17.5,21.3,27.8,23.9,31.7,percent,Alabama
+01071,Jackson,6,14.7,11.8,17.6,19.6,13.8,25.4,percent,Alabama
+01073,Jefferson,1,16.2,14.8,17.6,22.5,19.4,25.6,percent,Alabama
+01075,Lamar,8,15.3,11.4,19.2,21.6,14.3,28.9,percent,Alabama
+01077,Lauderdale,3,15.7,13.1,18.3,20.4,15.0,25.8,percent,Alabama
+01079,Lawrence,3,17.7,14.4,21.0,22.8,16.3,29.3,percent,Alabama
+01081,Lee,3,15.5,13.6,17.4,14.2,9.4,19.0,percent,Alabama
+01083,Limestone,2,12.0,10.0,14.0,16.3,12.6,20.0,percent,Alabama
+01085,Lowndes,2,26.6,21.0,32.2,36.1,24.5,47.7,percent,Alabama
+01087,Macon,6,29.3,22.3,36.3,39.2,26.4,52.0,percent,Alabama
+01089,Madison,2,11.5,10.2,12.8,16.8,14.0,19.6,percent,Alabama
+01091,Marengo,7,24.8,20.1,29.5,36.3,27.0,45.6,percent,Alabama
+01093,Marion,7,16.9,13.0,20.8,23.4,15.9,30.9,percent,Alabama
+01095,Marshall,4,15.7,12.9,18.5,21.5,15.9,27.1,percent,Alabama
+01097,Mobile,2,17.7,15.7,19.7,26.4,22.3,30.5,percent,Alabama
+01099,Monroe,7,23.3,18.6,28.0,31.4,21.9,40.9,percent,Alabama
+01101,Montgomery,2,15.8,13.2,18.4,23.3,17.5,29.1,percent,Alabama
+01103,Morgan,3,13.7,11.3,16.1,18.8,13.9,23.7,percent,Alabama
+01105,Perry,8,33.9,25.3,42.5,46.2,31.0,61.4,percent,Alabama
+01107,Pickens,3,24.3,18.8,29.8,34.0,24.6,43.4,percent,Alabama
+01109,Pike,6,21.8,17.9,25.7,29.8,22.1,37.5,percent,Alabama
+01111,Randolph,6,17.5,13.3,21.7,28.4,19.6,37.2,percent,Alabama
+01113,Russell,2,18.9,15.1,22.7,25.4,17.4,33.4,percent,Alabama
+01115,St. Clair,1,11.2,8.6,13.8,14.9,10.4,19.4,percent,Alabama
+01117,Shelby,1,6.2,5.0,7.4,7.7,5.3,10.1,percent,Alabama
+01119,Sumter,8,36.4,28.9,43.9,45.3,32.1,58.5,percent,Alabama
+01121,Talladega,4,17.4,14.3,20.5,25.1,18.6,31.6,percent,Alabama
+01123,Tallapoosa,6,16.0,12.5,19.5,25.9,18.5,33.3,percent,Alabama
+01125,Tuscaloosa,3,16.2,13.7,18.7,19.7,14.7,24.7,percent,Alabama
+01127,Walker,1,17.3,14.4,20.2,23.7,17.6,29.8,percent,Alabama
+01129,Washington,8,18.6,14.4,22.8,28.2,21.0,35.4,percent,Alabama
+01131,Wilcox,9,32.5,25.2,39.8,48.9,34.4,63.4,percent,Alabama
+01133,Winston,6,16.7,13.3,20.1,22.5,15.5,29.5,percent,Alabama
 48001,Anderson,7,19.8,15.0,24.6,23.8,17.0,30.6,percent,Texas
 48003,Andrews,6,10.2,7.7,12.7,12.7,8.8,16.6,percent,Texas
 48005,Angelina,5,15.6,12.4,18.8,22.6,16.1,29.1,percent,Texas
@@ -2928,21 +2927,21 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 48503,Young,7,13.6,10.3,16.9,20.4,13.9,26.9,percent,Texas
 48505,Zapata,6,30.1,23.9,36.3,43.7,31.2,56.2,percent,Texas
 48507,Zavala,7,29.6,22.6,36.6,40.4,28.0,52.8,percent,Texas
-4001,Apache,6,33.4,29.9,36.9,44.7,38.7,50.7,percent,Arizona
-4003,Cochise,3,16.6,14.0,19.2,26.2,20.5,31.9,percent,Arizona
-4005,Coconino,3,15.9,13.8,18.0,15.4,10.8,20.0,percent,Arizona
-4007,Gila,4,21.1,17.8,24.4,32.2,24.2,40.2,percent,Arizona
-4009,Graham,7,20.1,16.9,23.3,25.2,19.9,30.5,percent,Arizona
-4011,Greenlee,7,9.3,7.0,11.6,11.1,7.7,14.5,percent,Arizona
-4012,La Paz,6,22.1,17.0,27.2,32.6,23.4,41.8,percent,Arizona
-4013,Maricopa,1,12.2,11.7,12.7,17.5,16.5,18.5,percent,Arizona
-4015,Mohave,3,16.0,13.8,18.2,28.2,22.7,33.7,percent,Arizona
-4017,Navajo,4,25.2,22.2,28.2,35.0,29.1,40.9,percent,Arizona
-4019,Pima,2,14.0,12.8,15.2,19.0,16.3,21.7,percent,Arizona
-4021,Pinal,1,12.1,10.5,13.7,17.0,13.8,20.2,percent,Arizona
-4023,Santa Cruz,4,18.8,14.8,22.8,27.8,19.9,35.7,percent,Arizona
-4025,Yavapai,3,12.0,10.4,13.6,16.7,12.1,21.3,percent,Arizona
-4027,Yuma,3,20.4,17.9,22.9,29.7,24.8,34.6,percent,Arizona
+04001,Apache,6,33.4,29.9,36.9,44.7,38.7,50.7,percent,Arizona
+04003,Cochise,3,16.6,14.0,19.2,26.2,20.5,31.9,percent,Arizona
+04005,Coconino,3,15.9,13.8,18.0,15.4,10.8,20.0,percent,Arizona
+04007,Gila,4,21.1,17.8,24.4,32.2,24.2,40.2,percent,Arizona
+04009,Graham,7,20.1,16.9,23.3,25.2,19.9,30.5,percent,Arizona
+04011,Greenlee,7,9.3,7.0,11.6,11.1,7.7,14.5,percent,Arizona
+04012,La Paz,6,22.1,17.0,27.2,32.6,23.4,41.8,percent,Arizona
+04013,Maricopa,1,12.2,11.7,12.7,17.5,16.5,18.5,percent,Arizona
+04015,Mohave,3,16.0,13.8,18.2,28.2,22.7,33.7,percent,Arizona
+04017,Navajo,4,25.2,22.2,28.2,35.0,29.1,40.9,percent,Arizona
+04019,Pima,2,14.0,12.8,15.2,19.0,16.3,21.7,percent,Arizona
+04021,Pinal,1,12.1,10.5,13.7,17.0,13.8,20.2,percent,Arizona
+04023,Santa Cruz,4,18.8,14.8,22.8,27.8,19.9,35.7,percent,Arizona
+04025,Yavapai,3,12.0,10.4,13.6,16.7,12.1,21.3,percent,Arizona
+04027,Yuma,3,20.4,17.9,22.9,29.7,24.8,34.6,percent,Arizona
 35001,Bernalillo,2,15.5,14.4,16.6,20.4,18.0,22.8,percent,New Mexico
 35003,Catron,9,20.6,15.1,26.1,38.3,24.8,51.8,percent,New Mexico
 35005,Chaves,5,18.1,14.7,21.5,23.7,17.1,30.3,percent,New Mexico
@@ -2976,64 +2975,64 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 35057,Torrance,2,21.6,16.4,26.8,30.2,19.8,40.6,percent,New Mexico
 35059,Union,9,20.3,15.3,25.3,27.0,18.2,35.8,percent,New Mexico
 35061,Valencia,2,17.6,14.5,20.7,23.2,17.0,29.4,percent,New Mexico
-6001,Alameda,1,8.9,8.2,9.6,9.8,8.4,11.2,percent,California
-6003,Alpine,8,17.2,13.0,21.4,29.6,20.3,38.9,percent,California
-6005,Amador,6,9.8,7.4,12.2,12.5,8.4,16.6,percent,California
-6007,Butte,3,16.1,14.2,18.0,16.1,11.7,20.5,percent,California
-6009,Calaveras,6,12.1,9.4,14.8,19.6,14.4,24.8,percent,California
-6011,Colusa,6,12.0,9.7,14.3,15.3,11.4,19.2,percent,California
-6013,Contra Costa,1,7.9,7.1,8.7,9.9,8.4,11.4,percent,California
-6015,Del Norte,7,17.9,13.1,22.7,25.8,17.4,34.2,percent,California
-6017,El Dorado,1,8.7,7.5,9.9,9.1,6.9,11.3,percent,California
-6019,Fresno,2,20.5,19.2,21.8,29.0,26.6,31.4,percent,California
-6021,Glenn,6,12.1,8.9,15.3,18.1,12.1,24.1,percent,California
-6023,Humboldt,5,19.1,16.9,21.3,20.5,15.8,25.2,percent,California
-6025,Imperial,3,22.0,19.0,25.0,30.7,25.7,35.7,percent,California
-6027,Inyo,7,11.7,9.1,14.3,15.4,10.5,20.3,percent,California
-6029,Kern,2,19.0,17.4,20.6,26.0,23.2,28.8,percent,California
-6031,Kings,3,16.0,13.4,18.6,22.3,18.3,26.3,percent,California
-6033,Lake,4,18.3,14.9,21.7,25.2,18.2,32.2,percent,California
-6035,Lassen,7,16.5,12.7,20.3,15.0,10.2,19.8,percent,California
-6037,Los Angeles,1,13.4,13.0,13.8,18.3,17.4,19.2,percent,California
-6039,Madera,3,17.6,14.8,20.4,26.1,21.3,30.9,percent,California
-6041,Marin,1,6.9,5.9,7.9,7.2,5.5,8.9,percent,California
-6043,Mariposa,8,15.1,11.9,18.3,21.9,15.4,28.4,percent,California
-6045,Mendocino,4,14.0,11.6,16.4,20.4,14.9,25.9,percent,California
-6047,Merced,2,17.0,14.4,19.6,22.5,17.8,27.2,percent,California
-6049,Modoc,6,20.5,15.9,25.1,31.0,21.8,40.2,percent,California
-6051,Mono,7,10.1,7.7,12.5,12.0,8.3,15.7,percent,California
-6053,Monterey,2,12.6,11.1,14.1,18.4,16.0,20.8,percent,California
-6055,Napa,3,7.4,5.9,8.9,8.4,5.9,10.9,percent,California
-6057,Nevada,4,9.4,7.3,11.5,13.5,9.6,17.4,percent,California
-6059,Orange,1,9.5,8.9,10.1,12.6,11.2,14.0,percent,California
-6061,Placer,1,6.6,5.6,7.6,7.5,5.9,9.1,percent,California
-6063,Plumas,7,13.2,10.1,16.3,19.3,13.6,25.0,percent,California
-6065,Riverside,1,11.3,10.5,12.1,14.1,12.7,15.5,percent,California
-6067,Sacramento,1,12.6,11.6,13.6,16.0,14.0,18.0,percent,California
-6069,San Benito,1,10.4,8.6,12.2,13.9,11.1,16.7,percent,California
-6071,San Bernardino,1,13.3,12.4,14.2,18.5,16.6,20.4,percent,California
-6073,San Diego,1,10.3,9.6,11.0,12.8,11.4,14.2,percent,California
-6075,San Francisco,1,9.5,8.7,10.3,9.3,6.7,11.9,percent,California
-6077,San Joaquin,2,13.6,12.3,14.9,18.2,15.7,20.7,percent,California
-6079,San Luis Obispo,2,11.6,10.0,13.2,11.2,8.2,14.2,percent,California
-6081,San Mateo,1,6.1,5.3,6.9,6.3,4.8,7.8,percent,California
-6083,Santa Barbara,2,12.0,10.7,13.3,13.1,10.2,16.0,percent,California
-6085,Santa Clara,1,6.1,5.5,6.7,5.5,4.3,6.7,percent,California
-6087,Santa Cruz,2,10.6,8.9,12.3,10.4,7.2,13.6,percent,California
-6089,Shasta,3,13.3,11.1,15.5,16.5,11.9,21.1,percent,California
-6091,Sierra,8,12.7,9.5,15.9,18.4,12.7,24.1,percent,California
-6093,Siskiyou,6,17.4,14.4,20.4,25.5,18.9,32.1,percent,California
-6095,Solano,2,9.0,7.8,10.2,11.2,9.0,13.4,percent,California
-6097,Sonoma,2,7.2,6.2,8.2,7.7,5.6,9.8,percent,California
-6099,Stanislaus,2,13.0,11.5,14.5,17.1,14.2,20.0,percent,California
-6101,Sutter,3,12.8,10.2,15.4,17.4,12.6,22.2,percent,California
-6103,Tehama,4,16.3,13.0,19.6,23.7,17.3,30.1,percent,California
-6105,Trinity,8,16.5,12.4,20.6,25.3,17.0,33.6,percent,California
-6107,Tulare,2,18.9,16.5,21.3,25.8,21.6,30.0,percent,California
-6109,Tuolumne,4,11.3,8.7,13.9,15.2,10.2,20.2,percent,California
-6111,Ventura,2,8.2,7.2,9.2,11.4,9.4,13.4,percent,California
-6113,Yolo,1,16.9,15.4,18.4,13.0,10.0,16.0,percent,California
-6115,Yuba,3,15.2,12.4,18.0,18.8,13.2,24.4,percent,California
+06001,Alameda,1,8.9,8.2,9.6,9.8,8.4,11.2,percent,California
+06003,Alpine,8,17.2,13.0,21.4,29.6,20.3,38.9,percent,California
+06005,Amador,6,9.8,7.4,12.2,12.5,8.4,16.6,percent,California
+06007,Butte,3,16.1,14.2,18.0,16.1,11.7,20.5,percent,California
+06009,Calaveras,6,12.1,9.4,14.8,19.6,14.4,24.8,percent,California
+06011,Colusa,6,12.0,9.7,14.3,15.3,11.4,19.2,percent,California
+06013,Contra Costa,1,7.9,7.1,8.7,9.9,8.4,11.4,percent,California
+06015,Del Norte,7,17.9,13.1,22.7,25.8,17.4,34.2,percent,California
+06017,El Dorado,1,8.7,7.5,9.9,9.1,6.9,11.3,percent,California
+06019,Fresno,2,20.5,19.2,21.8,29.0,26.6,31.4,percent,California
+06021,Glenn,6,12.1,8.9,15.3,18.1,12.1,24.1,percent,California
+06023,Humboldt,5,19.1,16.9,21.3,20.5,15.8,25.2,percent,California
+06025,Imperial,3,22.0,19.0,25.0,30.7,25.7,35.7,percent,California
+06027,Inyo,7,11.7,9.1,14.3,15.4,10.5,20.3,percent,California
+06029,Kern,2,19.0,17.4,20.6,26.0,23.2,28.8,percent,California
+06031,Kings,3,16.0,13.4,18.6,22.3,18.3,26.3,percent,California
+06033,Lake,4,18.3,14.9,21.7,25.2,18.2,32.2,percent,California
+06035,Lassen,7,16.5,12.7,20.3,15.0,10.2,19.8,percent,California
+06037,Los Angeles,1,13.4,13.0,13.8,18.3,17.4,19.2,percent,California
+06039,Madera,3,17.6,14.8,20.4,26.1,21.3,30.9,percent,California
+06041,Marin,1,6.9,5.9,7.9,7.2,5.5,8.9,percent,California
+06043,Mariposa,8,15.1,11.9,18.3,21.9,15.4,28.4,percent,California
+06045,Mendocino,4,14.0,11.6,16.4,20.4,14.9,25.9,percent,California
+06047,Merced,2,17.0,14.4,19.6,22.5,17.8,27.2,percent,California
+06049,Modoc,6,20.5,15.9,25.1,31.0,21.8,40.2,percent,California
+06051,Mono,7,10.1,7.7,12.5,12.0,8.3,15.7,percent,California
+06053,Monterey,2,12.6,11.1,14.1,18.4,16.0,20.8,percent,California
+06055,Napa,3,7.4,5.9,8.9,8.4,5.9,10.9,percent,California
+06057,Nevada,4,9.4,7.3,11.5,13.5,9.6,17.4,percent,California
+06059,Orange,1,9.5,8.9,10.1,12.6,11.2,14.0,percent,California
+06061,Placer,1,6.6,5.6,7.6,7.5,5.9,9.1,percent,California
+06063,Plumas,7,13.2,10.1,16.3,19.3,13.6,25.0,percent,California
+06065,Riverside,1,11.3,10.5,12.1,14.1,12.7,15.5,percent,California
+06067,Sacramento,1,12.6,11.6,13.6,16.0,14.0,18.0,percent,California
+06069,San Benito,1,10.4,8.6,12.2,13.9,11.1,16.7,percent,California
+06071,San Bernardino,1,13.3,12.4,14.2,18.5,16.6,20.4,percent,California
+06073,San Diego,1,10.3,9.6,11.0,12.8,11.4,14.2,percent,California
+06075,San Francisco,1,9.5,8.7,10.3,9.3,6.7,11.9,percent,California
+06077,San Joaquin,2,13.6,12.3,14.9,18.2,15.7,20.7,percent,California
+06079,San Luis Obispo,2,11.6,10.0,13.2,11.2,8.2,14.2,percent,California
+06081,San Mateo,1,6.1,5.3,6.9,6.3,4.8,7.8,percent,California
+06083,Santa Barbara,2,12.0,10.7,13.3,13.1,10.2,16.0,percent,California
+06085,Santa Clara,1,6.1,5.5,6.7,5.5,4.3,6.7,percent,California
+06087,Santa Cruz,2,10.6,8.9,12.3,10.4,7.2,13.6,percent,California
+06089,Shasta,3,13.3,11.1,15.5,16.5,11.9,21.1,percent,California
+06091,Sierra,8,12.7,9.5,15.9,18.4,12.7,24.1,percent,California
+06093,Siskiyou,6,17.4,14.4,20.4,25.5,18.9,32.1,percent,California
+06095,Solano,2,9.0,7.8,10.2,11.2,9.0,13.4,percent,California
+06097,Sonoma,2,7.2,6.2,8.2,7.7,5.6,9.8,percent,California
+06099,Stanislaus,2,13.0,11.5,14.5,17.1,14.2,20.0,percent,California
+06101,Sutter,3,12.8,10.2,15.4,17.4,12.6,22.2,percent,California
+06103,Tehama,4,16.3,13.0,19.6,23.7,17.3,30.1,percent,California
+06105,Trinity,8,16.5,12.4,20.6,25.3,17.0,33.6,percent,California
+06107,Tulare,2,18.9,16.5,21.3,25.8,21.6,30.0,percent,California
+06109,Tuolumne,4,11.3,8.7,13.9,15.2,10.2,20.2,percent,California
+06111,Ventura,2,8.2,7.2,9.2,11.4,9.4,13.4,percent,California
+06113,Yolo,1,16.9,15.4,18.4,13.0,10.0,16.0,percent,California
+06115,Yuba,3,15.2,12.4,18.0,18.8,13.2,24.4,percent,California
 19001,Adair,8,10.7,8.5,12.9,12.9,8.5,17.3,percent,Iowa
 19003,Adams,9,12.5,9.8,15.2,19.6,13.6,25.6,percent,Iowa
 19005,Allamakee,6,13.0,10.6,15.4,15.6,10.6,20.6,percent,Iowa
@@ -3133,11 +3132,11 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 19193,Woodbury,3,12.8,10.8,14.8,16.1,12.1,20.1,percent,Iowa
 19195,Worth,9,9.8,7.6,12.0,14.5,10.2,18.8,percent,Iowa
 19197,Wright,7,11.0,8.7,13.3,14.9,10.2,19.6,percent,Iowa
-9001,Fairfield,2,9.0,8.2,9.8,11.8,10.3,13.3,percent,Connecticut
-9003,Hartford,1,10.8,9.9,11.7,14.0,12.0,16.0,percent,Connecticut
-9005,Litchfield,4,7.1,5.9,8.3,9.4,7.2,11.6,percent,Connecticut
-9007,Middlesex,1,7.0,5.9,8.1,7.2,5.3,9.1,percent,Connecticut
-9009,New Haven,2,12.0,11.0,13.0,18.5,16.5,20.5,percent,Connecticut
-9011,New London,2,7.8,6.4,9.2,11.6,8.7,14.5,percent,Connecticut
-9013,Tolland,1,7.8,6.5,9.1,6.3,4.4,8.2,percent,Connecticut
-9015,Windham,2,11.5,9.8,13.2,14.0,10.1,17.9,percent,Connecticut
+09001,Fairfield,2,9.0,8.2,9.8,11.8,10.3,13.3,percent,Connecticut
+09003,Hartford,1,10.8,9.9,11.7,14.0,12.0,16.0,percent,Connecticut
+09005,Litchfield,4,7.1,5.9,8.3,9.4,7.2,11.6,percent,Connecticut
+09007,Middlesex,1,7.0,5.9,8.1,7.2,5.3,9.1,percent,Connecticut
+09009,New Haven,2,12.0,11.0,13.0,18.5,16.5,20.5,percent,Connecticut
+09011,New London,2,7.8,6.4,9.2,11.6,8.7,14.5,percent,Connecticut
+09013,Tolland,1,7.8,6.5,9.1,6.3,4.4,8.2,percent,Connecticut
+09015,Windham,2,11.5,9.8,13.2,14.0,10.1,17.9,percent,Connecticut
