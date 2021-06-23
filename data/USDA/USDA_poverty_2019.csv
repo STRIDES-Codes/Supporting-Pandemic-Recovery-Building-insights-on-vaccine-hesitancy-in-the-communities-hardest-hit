@@ -5887,48 +5887,72 @@ fips,county,ruc_code,total_all_people,total_all_people_min,total_all_people_max,
 04023,Santa Cruz,4,"8,688","6,853","10,523","3,398","2,426","4,370",numbers,Arizona
 04025,Yavapai,3,"27,845","24,239","31,451","6,132","4,440","7,824",numbers,Arizona
 04027,Yuma,3,"41,782","36,598","46,966","15,728","13,142","18,314",numbers,Arizona
-34001,Atlantic,2,11.3,9.7,12.9,15.4,11.3,19.5,percent,New Jersey
-34003,Bergen,1,5.7,4.9,6.5,5.8,4.3,7.3,percent,New Jersey
-34005,Burlington,1,5.7,4.7,6.7,7.3,5.5,9.1,percent,New Jersey
-34007,Camden,1,10.7,9.3,12.1,15.3,12.4,18.2,percent,New Jersey
-34009,Cape May,3,9.8,7.6,12.0,14.9,10.2,19.6,percent,New Jersey
-34011,Cumberland,3,13.8,11.4,16.2,19.5,14.3,24.7,percent,New Jersey
-34013,Essex,1,13.8,12.5,15.1,18.4,15.7,21.1,percent,New Jersey
-34015,Gloucester,1,7.5,6.4,8.6,7.7,5.7,9.7,percent,New Jersey
-34017,Hudson,1,13.7,12.4,15.0,20.3,17.1,23.5,percent,New Jersey
-34019,Hunterdon,1,4.0,3.1,4.9,3.6,2.4,4.8,percent,New Jersey
-34021,Mercer,2,11.9,10.6,13.2,13.4,10.7,16.1,percent,New Jersey
-34023,Middlesex,1,8.5,7.6,9.4,10.8,9.0,12.6,percent,New Jersey
-34025,Monmouth,1,6.2,5.3,7.1,6.9,5.1,8.7,percent,New Jersey
-34027,Morris,1,5.3,4.5,6.1,5.4,4.2,6.6,percent,New Jersey
-34029,Ocean,1,9.0,7.7,10.3,14.0,11.0,17.0,percent,New Jersey
-34031,Passaic,1,13.3,12.0,14.6,20.4,17.7,23.1,percent,New Jersey
-34033,Salem,1,11.4,9.2,13.6,16.8,12.4,21.2,percent,New Jersey
-34035,Somerset,1,5.4,4.4,6.4,6.2,4.7,7.7,percent,New Jersey
-34037,Sussex,1,5.2,4.1,6.3,6.1,4.3,7.9,percent,New Jersey
-34039,Union,1,9.1,7.8,10.4,11.9,9.5,14.3,percent,New Jersey
-34041,Warren,2,7.1,5.6,8.6,9.2,6.4,12.0,percent,New Jersey
-34001,Atlantic,2,"29,057","24,806","33,308","8,397","6,139","10,655",numbers,New Jersey
-34003,Bergen,1,"52,980","45,318","60,642","11,348","8,427","14,269",numbers,New Jersey
-34005,Burlington,1,"24,961","20,587","29,335","6,673","5,056","8,290",numbers,New Jersey
-34007,Camden,1,"53,641","46,593","60,689","17,293","14,007","20,579",numbers,New Jersey
-34009,Cape May,3,"8,853","6,872","10,834","2,341","1,603","3,079",numbers,New Jersey
-34011,Cumberland,3,"19,261","15,973","22,549","6,744","4,932","8,556",numbers,New Jersey
-34013,Essex,1,"107,745","97,693","117,797","34,413","29,308","39,518",numbers,New Jersey
-34015,Gloucester,1,"21,602","18,324","24,880","4,788","3,548","6,028",numbers,New Jersey
-34017,Hudson,1,"90,976","82,608","99,344","27,414","23,157","31,671",numbers,New Jersey
-34019,Hunterdon,1,"4,794","3,678","5,910",844,559,"1,129",numbers,New Jersey
-34021,Mercer,2,"41,600","36,998","46,202","10,291","8,249","12,333",numbers,New Jersey
-34023,Middlesex,1,"68,514","61,186","75,842","19,135","16,035","22,235",numbers,New Jersey
-34025,Monmouth,1,"37,725","32,434","43,016","8,888","6,601","11,175",numbers,New Jersey
-34027,Morris,1,"25,678","21,729","29,627","5,512","4,336","6,688",numbers,New Jersey
-34029,Ocean,1,"53,950","46,047","61,853","20,297","15,910","24,684",numbers,New Jersey
-34031,Passaic,1,"65,342","58,776","71,908","23,953","20,797","27,109",numbers,New Jersey
-34033,Salem,1,"7,000","5,654","8,346","2,190","1,617","2,763",numbers,New Jersey
-34035,Somerset,1,"17,409","14,096","20,722","4,278","3,211","5,345",numbers,New Jersey
-34037,Sussex,1,"7,180","5,642","8,718","1,647","1,154","2,140",numbers,New Jersey
-34039,Union,1,"50,094","43,186","57,002","15,203","12,119","18,287",numbers,New Jersey
-34041,Warren,2,"7,313","5,741","8,885","1,847","1,283","2,411",numbers,New Jersey
+35001,Bernalillo,2,15.5,14.4,16.6,20.4,18.0,22.8,percent,New Mexico
+35003,Catron,9,20.6,15.1,26.1,38.3,24.8,51.8,percent,New Mexico
+35005,Chaves,5,18.1,14.7,21.5,23.7,17.1,30.3,percent,New Mexico
+35006,Cibola,6,25.5,20.6,30.4,32.5,23.4,41.6,percent,New Mexico
+35007,Colfax,7,17.0,12.5,21.5,27.0,17.8,36.2,percent,New Mexico
+35009,Curry,5,18.7,15.4,22.0,25.6,19.5,31.7,percent,New Mexico
+35011,De Baca,9,18.6,13.8,23.4,29.8,20.1,39.5,percent,New Mexico
+35013,Dona Ana,3,23.8,21.3,26.3,31.3,26.3,36.3,percent,New Mexico
+35015,Eddy,5,11.2,8.4,14.0,14.5,9.5,19.5,percent,New Mexico
+35017,Grant,7,18.1,13.8,22.4,27.0,18.1,35.9,percent,New Mexico
+35019,Guadalupe,7,23.5,17.4,29.6,28.8,19.3,38.3,percent,New Mexico
+35021,Harding,9,15.4,11.3,19.5,15.9,9.9,21.9,percent,New Mexico
+35023,Hidalgo,9,22.9,17.0,28.8,32.4,21.2,43.6,percent,New Mexico
+35025,Lea,5,15.1,12.1,18.1,18.1,12.8,23.4,percent,New Mexico
+35027,Lincoln,7,13.7,9.7,17.7,25.9,16.2,35.6,percent,New Mexico
+35028,Los Alamos,6,3.5,2.6,4.4,3.2,2.1,4.3,percent,New Mexico
+35029,Luna,6,23.8,18.3,29.3,33.2,22.4,44.0,percent,New Mexico
+35031,McKinley,5,30.1,26.0,34.2,39.0,31.0,47.0,percent,New Mexico
+35033,Mora,9,21.2,15.6,26.8,29.7,19.1,40.3,percent,New Mexico
+35035,Otero,4,20.1,16.6,23.6,27.7,20.5,34.9,percent,New Mexico
+35037,Quay,7,21.7,16.2,27.2,34.2,22.6,45.8,percent,New Mexico
+35039,Rio Arriba,4,22.2,18.0,26.4,27.0,19.1,34.9,percent,New Mexico
+35041,Roosevelt,7,18.8,14.2,23.4,25.2,17.5,32.9,percent,New Mexico
+35043,Sandoval,2,10.0,7.9,12.1,14.2,9.9,18.5,percent,New Mexico
+35045,San Juan,3,19.9,17.0,22.8,26.8,21.2,32.4,percent,New Mexico
+35047,San Miguel,6,23.8,18.6,29.0,31.7,21.6,41.8,percent,New Mexico
+35049,Santa Fe,3,12.4,10.5,14.3,16.4,12.4,20.4,percent,New Mexico
+35051,Sierra,6,27.6,22.0,33.2,39.7,27.4,52.0,percent,New Mexico
+35053,Socorro,6,26.0,19.8,32.2,37.6,25.6,49.6,percent,New Mexico
+35055,Taos,7,18.2,13.9,22.5,24.9,15.8,34.0,percent,New Mexico
+35057,Torrance,2,21.6,16.4,26.8,30.2,19.8,40.6,percent,New Mexico
+35059,Union,9,20.3,15.3,25.3,27.0,18.2,35.8,percent,New Mexico
+35061,Valencia,2,17.6,14.5,20.7,23.2,17.0,29.4,percent,New Mexico
+35001,Bernalillo,2,"103,458","96,015","110,901","28,902","25,446","32,358",numbers,New Mexico
+35003,Catron,9,723,530,916,151,98,204,numbers,New Mexico
+35005,Chaves,5,"11,376","9,255","13,497","3,857","2,784","4,930",numbers,New Mexico
+35006,Cibola,6,"6,137","4,951","7,323","1,975","1,423","2,527",numbers,New Mexico
+35007,Colfax,7,"1,961","1,441","2,481",564,371,757,numbers,New Mexico
+35009,Curry,5,"8,868","7,297","10,439","3,209","2,445","3,973",numbers,New Mexico
+35011,De Baca,9,323,241,405,115,78,152,numbers,New Mexico
+35013,Dona Ana,3,"50,726","45,297","56,155","16,270","13,664","18,876",numbers,New Mexico
+35015,Eddy,5,"6,474","4,835","8,113","2,197","1,438","2,956",numbers,New Mexico
+35017,Grant,7,"4,772","3,627","5,917","1,389",931,"1,847",numbers,New Mexico
+35019,Guadalupe,7,874,649,"1,099",251,168,334,numbers,New Mexico
+35021,Harding,9,96,71,121,11,7,15,numbers,New Mexico
+35023,Hidalgo,9,942,698,"1,186",302,198,406,numbers,New Mexico
+35025,Lea,5,"10,399","8,354","12,444","3,744","2,653","4,835",numbers,New Mexico
+35027,Lincoln,7,"2,657","1,883","3,431",902,565,"1,239",numbers,New Mexico
+35028,Los Alamos,6,683,503,863,135,89,181,numbers,New Mexico
+35029,Luna,6,"5,488","4,223","6,753","2,008","1,355","2,661",numbers,New Mexico
+35031,McKinley,5,"21,294","18,391","24,197","7,711","6,136","9,286",numbers,New Mexico
+35033,Mora,9,956,704,"1,208",227,146,308,numbers,New Mexico
+35035,Otero,4,"13,054","10,756","15,352","4,180","3,090","5,270",numbers,New Mexico
+35037,Quay,7,"1,781","1,332","2,230",589,390,788,numbers,New Mexico
+35039,Rio Arriba,4,"8,542","6,933","10,151","2,389","1,689","3,089",numbers,New Mexico
+35041,Roosevelt,7,"3,257","2,466","4,048","1,096",759,"1,433",numbers,New Mexico
+35043,Sandoval,2,"14,627","11,518","17,736","4,686","3,283","6,089",numbers,New Mexico
+35045,San Juan,3,"24,358","20,803","27,913","8,438","6,668","10,208",numbers,New Mexico
+35047,San Miguel,6,"6,239","4,870","7,608","1,467","1,001","1,933",numbers,New Mexico
+35049,Santa Fe,3,"18,378","15,615","21,141","4,268","3,239","5,297",numbers,New Mexico
+35051,Sierra,6,"2,899","2,311","3,487",663,458,868,numbers,New Mexico
+35053,Socorro,6,"4,171","3,172","5,170","1,357",922,"1,792",numbers,New Mexico
+35055,Taos,7,"5,922","4,521","7,323","1,391",881,"1,901",numbers,New Mexico
+35057,Torrance,2,"3,198","2,431","3,965",924,606,"1,242",numbers,New Mexico
+35059,Union,9,684,516,852,200,135,265,numbers,New Mexico
+35061,Valencia,2,"13,210","10,887","15,533","4,062","2,969","5,155",numbers,New Mexico
 06001,Alameda,1,8.9,8.2,9.6,9.8,8.4,11.2,percent,California
 06003,Alpine,8,17.2,13.0,21.4,29.6,20.3,38.9,percent,California
 06005,Amador,6,9.8,7.4,12.2,12.5,8.4,16.6,percent,California
