@@ -1,0 +1,309 @@
+﻿PolygonLayer1_label,Value0
+,13.9
+,14.8
+,12.5
+,30.2
+,12.9
+,24.2
+,24.9
+,10.2
+,10.7
+,18.2
+,11.7
+,16.0
+,17.7
+,19.9
+,25.1
+,21.0
+,19.6
+,26.8
+,9.3
+,15.7
+,19.1
+,17.0
+,17.5
+,10.7
+,18.0
+,23.2
+,12.7
+,17.2
+,13.8
+,11.8
+,19.1
+,25.4
+,11.9
+,18.1
+,24.9
+,28.9
+,14.0
+,13.1
+,26.3
+,15.3
+,16.2
+,16.1
+,12.9
+,17.8
+,19.9
+,27.8
+,8.6
+
+PolygonLayer2_label,Value0
+,12.3
+,15.6
+,10.2
+,13.5
+,16.0
+,11.8
+,9.4
+,9.9
+,11.2
+,14.1
+,12.7
+,13.5
+,9.0
+,11.0
+,11.4
+,11.9
+,11.0
+,11.3
+,16.0
+,18.8
+,10.9
+,9.1
+,9.5
+,12.9
+,8.9
+,19.5
+,12.9
+,12.6
+,9.9
+,12.7
+,7.5
+,9.1
+,17.5
+,13.1
+,13.6
+,10.5
+,13.0
+,15.1
+,11.5
+,12.0
+,11.6
+,13.9
+,11.9
+,13.8
+,13.6
+,8.8
+,10.1
+,9.9
+,9.8
+,16.2
+,10.4
+,9.9
+
+Textbox105,Textbox106,fips2,county2,ruc_code2,total_est_pct3,total_est_pct_Bmin3,total_est_pct_Bmax3,under18_pct3,under18_pct_Bmin3,under18_pct_Bmax3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45000,South Carolina,,13.9,13.5,14.3,19.9,19.1,20.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45001,Abbeville,6,14.8,11.1,18.5,21.6,14.6,28.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45003,Aiken,2,12.5,10.1,14.9,19.3,14.0,24.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45005,Allendale,6,30.2,21.6,38.8,46.9,31.9,61.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45007,Anderson,2,12.9,11.1,14.7,18.8,15.1,22.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45009,Bamberg,7,24.2,18.0,30.4,33.9,22.3,45.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45011,Barnwell,6,24.9,20.4,29.4,38.5,29.7,47.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45013,Beaufort,3,10.2,8.3,12.1,18.4,14.1,22.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45015,Berkeley,2,10.7,9.3,12.1,14.8,11.5,18.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45017,Calhoun,2,18.2,14.3,22.1,28.0,20.5,35.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45019,Charleston,2,11.7,10.1,13.3,16.1,12.2,20.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45021,Cherokee,4,16.0,12.8,19.2,22.6,16.2,29.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45023,Chester,1,17.7,14.2,21.2,25.7,17.9,33.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45025,Chesterfield,6,19.9,16.0,23.8,28.7,21.1,36.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45027,Clarendon,6,25.1,21.3,28.9,41.8,35.4,48.2
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45029,Colleton,6,21.0,16.4,25.6,33.4,24.0,42.8
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45031,Darlington,3,19.6,15.7,23.5,31.3,23.4,39.2
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45033,Dillon,6,26.8,22.0,31.6,35.2,24.9,45.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45035,Dorchester,2,9.3,7.7,10.9,12.6,9.2,16.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45037,Edgefield,2,15.7,12.0,19.4,20.7,14.3,27.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45039,Fairfield,2,19.1,14.5,23.7,29.2,20.0,38.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45041,Florence,3,17.0,14.2,19.8,23.9,17.6,30.2
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45043,Georgetown,4,17.5,14.5,20.5,31.1,24.3,37.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45045,Greenville,2,10.7,9.4,12.0,14.8,12.2,17.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45047,Greenwood,4,18.0,15.1,20.9,25.3,19.0,31.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45049,Hampton,6,23.2,17.8,28.6,32.2,22.8,41.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45051,Horry,2,12.7,11.1,14.3,21.0,16.5,25.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45053,Jasper,3,17.2,13.2,21.2,28.8,19.3,38.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45055,Kershaw,2,13.8,11.4,16.2,22.9,18.3,27.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45057,Lancaster,1,11.8,9.6,14.0,15.3,10.5,20.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45059,Laurens,2,19.1,16.0,22.2,25.5,18.9,32.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45061,Lee,6,25.4,19.4,31.4,34.8,24.3,45.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45063,Lexington,2,11.9,10.4,13.4,17.3,14.2,20.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45065,McCormick,8,18.1,13.9,22.3,32.6,22.2,43.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45067,Marion,6,24.9,20.2,29.6,41.0,31.6,50.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45069,Marlboro,6,28.9,24.4,33.4,30.7,20.9,40.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45071,Newberry,6,14.0,10.5,17.5,22.4,15.2,29.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45073,Oconee,4,13.1,10.9,15.3,19.9,14.6,25.2
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45075,Orangeburg,4,26.3,22.8,29.8,42.8,36.0,49.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45077,Pickens,2,15.3,13.2,17.4,15.5,11.3,19.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45079,Richland,2,16.2,14.6,17.8,21.1,17.6,24.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45081,Saluda,2,16.1,12.6,19.6,23.8,16.3,31.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45083,Spartanburg,2,12.9,11.2,14.6,18.2,15.0,21.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45085,Sumter,3,17.8,14.8,20.8,25.8,19.0,32.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45087,Union,2,19.9,16.5,23.3,31.5,24.9,38.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45089,Williamsburg,6,27.8,22.4,33.2,37.7,26.6,48.8
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45091,York,1,8.6,7.2,10.0,10.6,7.8,13.4
+
+Textbox93,Textbox96,fips,county,ruc_code,total_est,total_Bmin,total_Bmax,under18,under18_Bmin,under18_Bmax
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45000,South Carolina,,"695,259","677,534","712,984","216,175","207,434","224,916"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45001,Abbeville,6,"3,508","2,622","4,394","1,029",698,"1,360"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45003,Aiken,2,"21,071","17,042","25,100","6,907","5,012","8,802"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45005,Allendale,6,"2,313","1,653","2,973",762,518,"1,006"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45007,Anderson,2,"25,717","22,046","29,388","8,433","6,764","10,102"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45009,Bamberg,7,"3,226","2,396","4,056",876,576,"1,176"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45011,Barnwell,6,"5,115","4,186","6,044","1,857","1,432","2,282"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45013,Beaufort,3,"18,979","15,518","22,440","6,310","4,836","7,784"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45015,Berkeley,2,"23,953","20,786","27,120","7,794","6,046","9,542"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45017,Calhoun,2,"2,613","2,048","3,178",749,549,949
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45019,Charleston,2,"46,853","40,269","53,437","12,586","9,559","15,613"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45021,Cherokee,4,"8,951","7,139","10,763","2,887","2,065","3,709"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45023,Chester,1,"5,651","4,545","6,757","1,812","1,262","2,362"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45025,Chesterfield,6,"8,937","7,196","10,678","2,790","2,048","3,532"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45027,Clarendon,6,"8,053","6,823","9,283","2,592","2,193","2,991"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45029,Colleton,6,"7,823","6,115","9,531","2,768","1,985","3,551"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45031,Darlington,3,"12,767","10,226","15,308","4,499","3,359","5,639"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45033,Dillon,6,"8,022","6,588","9,456","2,649","1,873","3,425"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45035,Dorchester,2,"14,871","12,341","17,401","4,846","3,525","6,167"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45037,Edgefield,2,"3,839","2,921","4,757",985,683,"1,287"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45039,Fairfield,2,"4,198","3,183","5,213","1,214",832,"1,596"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45041,Florence,3,"22,950","19,104","26,796","7,622","5,619","9,625"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45043,Georgetown,4,"10,842","8,987","12,697","3,416","2,672","4,160"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45045,Greenville,2,"54,815","48,302","61,328","17,438","14,376","20,500"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45047,Greenwood,4,"12,277","10,284","14,270","3,955","2,966","4,944"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45049,Hampton,6,"4,136","3,176","5,096","1,282",909,"1,655"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45051,Horry,2,"44,197","38,757","49,637","12,735","9,981","15,489"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45053,Jasper,3,"4,941","3,786","6,096","1,682","1,127","2,237"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45055,Kershaw,2,"9,088","7,526","10,650","3,431","2,747","4,115"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45057,Lancaster,1,"11,258","9,136","13,380","3,164","2,172","4,156"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45059,Laurens,2,"12,447","10,438","14,456","3,649","2,697","4,601"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45061,Lee,6,"3,890","2,972","4,808","1,140",796,"1,484"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45063,Lexington,2,"35,210","30,864","39,556","11,620","9,550","13,690"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45065,McCormick,8,"1,533","1,178","1,888",326,221,431
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45067,Marion,6,"7,562","6,146","8,978","2,772","2,138","3,406"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45069,Marlboro,6,"6,750","5,710","7,790","1,559","1,061","2,057"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45071,Newberry,6,"5,198","3,884","6,512","1,791","1,211","2,371"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45073,Oconee,4,"10,268","8,503","12,033","3,049","2,241","3,857"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45075,Orangeburg,4,"21,821","18,952","24,690","7,827","6,586","9,068"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45077,Pickens,2,"18,055","15,592","20,518","3,557","2,583","4,531"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45079,Richland,2,"62,567","56,249","68,885","18,261","15,190","21,332"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45081,Saluda,2,"3,247","2,533","3,961","1,019",699,"1,339"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45083,Spartanburg,2,"40,129","34,943","45,315","13,075","10,772","15,378"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45085,Sumter,3,"18,444","15,277","21,611","6,404","4,723","8,085"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45087,Union,2,"5,347","4,445","6,249","1,741","1,375","2,107"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45089,Williamsburg,6,"8,148","6,567","9,729","2,294","1,621","2,967"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),45091,York,1,"23,679","19,757","27,601","7,026","5,201","8,851"
+
+Textbox98,Textbox99,state_National,total_est_pct2,total_est_pct_Bmin2,total_est_pct_Bmax2,under18_pct2,under18_pct_Bmin2,under18_pct_Bmax2
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Alabama,15.6,15.2,16.0,21.9,21.1,22.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Alaska,10.2,9.6,10.8,13.2,12.2,14.2
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Arizona,13.5,13.2,13.8,19.2,18.4,20.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Arkansas,16.0,15.6,16.4,21.7,20.8,22.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),California,11.8,11.7,11.9,15.6,15.3,15.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Colorado,9.4,9.1,9.7,11.2,10.5,11.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Connecticut,9.9,9.6,10.2,13.5,12.7,14.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Delaware,11.2,10.6,11.8,16.3,15.2,17.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),District of Columbia,14.1,13.2,15.0,20.8,17.6,24.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Florida,12.7,12.5,12.9,18.2,17.6,18.8
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Georgia,13.5,13.2,13.8,19.5,18.8,20.2
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Hawaii,9.0,8.5,9.5,11.2,10.1,12.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Idaho,11.0,10.5,11.5,12.7,11.8,13.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Illinois,11.4,11.2,11.6,15.6,15.1,16.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Indiana,11.9,11.6,12.2,15.1,14.4,15.8
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Iowa,11.0,10.6,11.4,12.8,12.1,13.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Kansas,11.3,11.0,11.6,14.3,13.6,15.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Kentucky,16.0,15.6,16.4,20.9,20.1,21.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Louisiana,18.8,18.4,19.2,26.4,25.5,27.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Maine,10.9,10.4,11.4,13.8,12.9,14.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Maryland,9.1,8.9,9.3,12.3,11.6,13.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Massachusetts,9.5,9.3,9.7,12.0,11.3,12.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Michigan,12.9,12.7,13.1,17.5,16.9,18.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Minnesota,8.9,8.7,9.1,11.0,10.4,11.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Mississippi,19.5,19.0,20.0,27.6,26.5,28.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Missouri,12.9,12.6,13.2,17.0,16.4,17.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Montana,12.6,12.1,13.1,15.4,14.4,16.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),National,12.3,12.2,12.4,16.8,16.6,17.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Nebraska,9.9,9.5,10.3,11.5,10.7,12.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Nevada,12.7,12.3,13.1,17.6,16.7,18.5
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New Hampshire,7.5,7.0,8.0,8.1,7.2,9.0
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New Jersey,9.1,8.9,9.3,12.2,11.6,12.8
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New Mexico,17.5,17.0,18.0,23.5,22.4,24.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New York,13.1,12.9,13.3,18.2,17.7,18.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),North Carolina,13.6,13.4,13.8,19.3,18.7,19.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),North Dakota,10.5,9.9,11.1,10.9,9.9,11.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Ohio,13.0,12.8,13.2,18.1,17.5,18.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Oklahoma,15.1,14.8,15.4,19.7,19.1,20.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Oregon,11.5,11.2,11.8,13.6,12.8,14.4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Pennsylvania,12.0,11.8,12.2,16.5,15.9,17.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Rhode Island,11.6,11.0,12.2,16.5,15.3,17.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),South Carolina,13.9,13.5,14.3,19.9,19.1,20.7
+All people in poverty (2019),Children ages 0-17 in poverty (2019),South Dakota,11.9,11.4,12.4,14.9,13.9,15.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Tennessee,13.8,13.5,14.1,19.4,18.7,20.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Texas,13.6,13.4,13.8,19.2,18.8,19.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Utah,8.8,8.5,9.1,9.6,8.9,10.3
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Vermont,10.1,9.5,10.7,10.8,9.8,11.8
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Virginia,9.9,9.7,10.1,13.3,12.7,13.9
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Washington,9.8,9.5,10.1,12.0,11.4,12.6
+All people in poverty (2019),Children ages 0-17 in poverty (2019),West Virginia,16.2,15.7,16.7,20.8,19.8,21.8
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Wisconsin,10.4,10.2,10.6,13.5,12.9,14.1
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Wyoming,9.9,9.2,10.6,11.7,10.6,12.8
+
+Textbox100,Textbox119,state_National2,total_est_pct4,total_est_pct_Bmin4,total_est_pct_Bmax4,under18_pct4,under18_pct_Bmin4,under18_pct_Bmax4
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Alabama,"747,478","730,491","764,465","233,890","225,712","242,068"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Alaska,"73,033","68,640","77,426","23,110","21,326","24,894"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Arizona,"963,007","940,142","985,872","309,844","297,708","321,980"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Arkansas,"468,575","456,478","480,672","148,843","142,807","154,879"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),California,"4,560,419","4,509,811","4,611,027","1,363,913","1,335,622","1,392,204"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Colorado,"531,331","516,240","546,422","139,017","130,741","147,293"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Connecticut,"343,101","331,999","354,203","96,843","91,433","102,253"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Delaware,"106,227","100,509","111,945","32,036","29,866","34,206"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),District of Columbia,"94,985","88,692","101,278","26,379","22,277","30,481"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Florida,"2,681,832","2,641,009","2,722,655","754,366","730,692","778,040"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Georgia,"1,397,607","1,370,705","1,424,509","479,379","462,139","496,619"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Hawaii,"124,650","118,029","131,271","33,038","29,912","36,164"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Idaho,"193,741","185,524","201,958","55,949","52,006","59,892"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Illinois,"1,415,838","1,390,337","1,441,339","431,937","417,345","446,529"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Indiana,"773,367","755,582","791,152","229,786","219,619","239,953"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Iowa,"337,156","325,533","348,779","91,495","86,520","96,470"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Kansas,"319,931","310,230","329,632","97,920","93,074","102,766"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Kentucky,"692,875","677,588","708,162","204,500","196,698","212,302"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Louisiana,"847,739","829,070","866,408","282,297","272,616","291,978"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Maine,"141,566","135,542","147,590","33,026","30,771","35,281"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Maryland,"537,717","523,164","552,270","160,600","151,973","169,227"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Massachusetts,"631,551","615,762","647,340","159,006","149,956","168,056"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Michigan,"1,264,445","1,242,287","1,286,603","367,411","355,641","379,181"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Minnesota,"491,782","479,460","504,104","140,103","132,789","147,417"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Mississippi,"559,764","544,709","574,819","189,002","181,496","196,508"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Missouri,"766,238","749,437","783,039","227,828","219,389","236,267"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Montana,"130,974","125,732","136,216","34,263","32,084","36,442"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),National,"39,490,096","39,248,096","39,732,096","12,000,470","11,865,995","12,134,945"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Nebraska,"186,402","179,202","193,602","53,479","49,809","57,149"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Nevada,"384,900","371,882","397,918","119,574","113,748","125,400"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New Hampshire,"98,310","92,374","104,246","20,036","17,793","22,279"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New Jersey,"795,676","775,971","815,381","233,496","222,893","244,099"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New Mexico,"358,526","348,384","368,668","109,631","104,537","114,725"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),New York,"2,471,760","2,439,327","2,504,193","716,817","697,360","736,274"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),North Carolina,"1,383,760","1,358,983","1,408,537","435,728","422,158","449,298"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),North Dakota,"77,327","72,958","81,696","19,263","17,532","20,994"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Ohio,"1,474,285","1,449,452","1,499,118","458,134","443,797","472,471"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Oklahoma,"578,631","567,495","589,767","183,999","177,965","190,033"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Oregon,"474,302","461,869","486,735","114,674","107,590","121,758"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Pennsylvania,"1,481,193","1,453,602","1,508,784","426,395","411,822","440,968"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Rhode Island,"118,095","112,012","124,178","33,122","30,808","35,436"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),South Carolina,"695,259","677,534","712,984","216,175","207,434","224,916"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),South Dakota,"101,371","96,713","106,029","31,584","29,379","33,789"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Tennessee,"919,850","901,358","938,342","286,752","276,627","296,877"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Texas,"3,870,944","3,820,568","3,921,320","1,401,195","1,370,295","1,432,095"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Utah,"279,435","268,423","290,447","88,325","82,131","94,519"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Vermont,"60,624","57,229","64,019","12,054","10,937","13,171"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Virginia,"822,944","805,003","840,885","242,806","232,710","252,902"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Washington,"731,216","712,292","750,140","195,927","186,046","205,808"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),West Virginia,"281,175","271,926","290,424","72,505","68,983","76,027"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Wisconsin,"591,404","578,030","604,778","167,882","160,492","175,272"
+All people in poverty (2019),Children ages 0-17 in poverty (2019),Wyoming,"55,776","51,997","59,555","15,137","13,730","16,544"
+
