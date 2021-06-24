@@ -24,9 +24,9 @@ Our research will investigate and compare social determinants of COVID-19 severi
 ![Workflow Diagram](/images/workflowDiagram.png)
 
 ## Results
-Our model shows median income, poverty, and race to be the most predictive of vaccine hesitancy. 
+Our model shows percent mobile homes to be the most predictive of vaccine hesitancy. 
 
-![Factor Importance])(/images/feature_importance.png)
+![Factor Importance](images/feature_importance.png)
 
 For more insight, check out our website: https://vaccine-hesitancy.github.io/
 
