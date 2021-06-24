@@ -1,7 +1,7 @@
 # Supporting Pandemic Recovery: Building insights on vaccine hesitancy in the communities hardest hit by COVID-19
 
 ## Authors
-Jesse Shanahan (Lead) | Christopher Villafuerte | Casey Kalman (Writer) | Troyana Brown | Jongchan Kim | Vikram Chhatre (Sys Admin)
+Jesse Shanahan | Christopher Villafuerte | Casey Kalman | Troyana Brown | Jongchan Kim | Vikram Chhatre
 
 ## What is Vaccine Hesitancy?
 According to the World Health Organization (WHO), vaccine hesitancy is defined as a “delay in acceptance or refusal of vaccines despite availability of vaccine services”.
