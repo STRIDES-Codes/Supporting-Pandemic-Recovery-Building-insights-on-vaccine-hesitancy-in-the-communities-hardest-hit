@@ -23,6 +23,11 @@ Our research will investigate and compare social determinants of COVID-19 severi
 
 ![Workflow Diagram](/images/workflowDiagram.png)
 
+## Results
+Our model shows median income, poverty, and race to be the most predictive of vaccine hesitancy. 
+
+For more insight, check out our website: https://vaccine-hesitancy.github.io/
+
 ## How to use this predictive model
 This model should be used to identify areas of the country where vaccine hesitancy is likely to be an issue during and after the COVID-19 pandemic. The results produced from the model should be used as a screening tool to better identify areas where greater public health resources and campaigns could benefit current and future vaccination efforts. 
 This tool should not be used alone and should always be used along with other data, experience, and local knowledge.
